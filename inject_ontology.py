@@ -233,4 +233,4 @@ for item in data_penyakit:
         add_object_assertion(root, "memilikiPenanganan", p, pen)
 
 tree.write(OUTPUT_FILE, xml_declaration=True, encoding="utf-8")
-print(f"Selesai! File reifikasi tersimpan sebagai: {OUTPUT_FILE}")
+print(f"File reifikasi tersimpan sebagai: {OUTPUT_FILE}")
