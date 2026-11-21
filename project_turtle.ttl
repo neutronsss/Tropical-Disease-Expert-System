@@ -1,0 +1,1925 @@
+@prefix : <http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6> .
+
+<http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#sumberRujukan
+:sumberRujukan rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#disebabkan
+:disebabkan rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#melibatkanGejala
+:melibatkanGejala rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiPenanganan
+:memilikiPenanganan rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiPenangananMandiri
+:memilikiPenangananMandiri rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf :memilikiPenanganan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiRujukanMedis
+:memilikiRujukanMedis rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf :memilikiPenanganan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiTandaBahaya
+:memilikiTandaBahaya rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiGejala
+:mengalamiGejala rdf:type owl:ObjectProperty ;
+                 rdfs:domain :KasusPasien ;
+                 rdfs:range :Gejala ;
+                 owl:propertyChainAxiom ( :mengalamiManifestasi
+                                          :melibatkanGejala
+                                        ) .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi
+:mengalamiManifestasi rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#menghubungkanPenyakit
+:menghubungkanPenyakit rdf:type owl:ObjectProperty ;
+                       owl:inverseOf :penyakitTerkait .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#pantanganMandiri
+:pantanganMandiri rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#penyakitTerkait
+:penyakitTerkait rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#punyaKontakLingkungan
+:punyaKontakLingkungan rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#umumTerjadiPadaMusim
+:umumTerjadiPadaMusim rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mulaiDirasakanHariKe
+:mulaiDirasakanHariKe rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :ManifestasiGejala ;
+                      rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala
+:Gejala rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaDarurat
+:GejalaDarurat rdf:type owl:Class ;
+               rdfs:subClassOf :Gejala .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas
+:GejalaKhas rdf:type owl:Class ;
+            rdfs:subClassOf :Gejala .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit
+:GejalaKulit rdf:type owl:Class ;
+             rdfs:subClassOf :Gejala .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaPencernaan
+:GejalaPencernaan rdf:type owl:Class ;
+                  rdfs:subClassOf :Gejala .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSensorik
+:GejalaSensorik rdf:type owl:Class ;
+                rdfs:subClassOf :Gejala .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik
+:GejalaSistemik rdf:type owl:Class ;
+                rdfs:subClassOf :Gejala .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum
+:GejalaUmum rdf:type owl:Class ;
+            rdfs:subClassOf :Gejala .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis
+:HasilDiagnosis rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien
+:KasusPasien rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LaranganTindakan
+:LaranganTindakan rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Lingkungan
+:Lingkungan rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala
+:ManifestasiGejala rdf:type owl:Class ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty :melibatkanGejala ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :Gejala
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :menghubungkanPenyakit ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :Penyakit
+                                   ] .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Musim
+:Musim rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Class ;
+                             owl:oneOf ( :Hujan
+                                         :Kemarau
+                                       )
+                           ] .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri
+:PenangananMandiri rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Penyakit
+:Penyakit rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitBakteri
+:PenyakitBakteri rdf:type owl:Class ;
+                 rdfs:subClassOf :Penyakit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitJamur
+:PenyakitJamur rdf:type owl:Class ;
+               rdfs:subClassOf :Penyakit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit
+:PenyakitParasit rdf:type owl:Class ;
+                 rdfs:subClassOf :Penyakit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitToksin
+:PenyakitToksin rdf:type owl:Class ;
+                rdfs:subClassOf :Penyakit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitVirus
+:PenyakitVirus rdf:type owl:Class ;
+               rdfs:subClassOf :Penyakit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RujukanFaskes
+:RujukanFaskes rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya
+:TandaBahaya rdf:type owl:Class ;
+             rdfs:subClassOf :Gejala .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiBuruliUlcer
+:TerindikasiBuruliUlcer rdf:type owl:Class ;
+                        owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty :mengalamiManifestasi ;
+                                                                     owl:hasValue :BuruliUlcer_BenjolanTanpaNyeri
+                                                                   ]
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty :mengalamiManifestasi ;
+                                                                     owl:hasValue :BuruliUlcer_LukaBorok
+                                                                   ]
+                                                                 ) ;
+                                              rdf:type owl:Class
+                                            ] ;
+                        rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiChagasDisease
+:TerindikasiChagasDisease rdf:type owl:Class ;
+                          owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :mengalamiManifestasi ;
+                                                                       owl:hasValue :ChagasDisease_BengkakKelopakMataSatuSisi
+                                                                     ]
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :mengalamiManifestasi ;
+                                                                       owl:hasValue :ChagasDisease_DemamTinggi
+                                                                     ]
+                                                                   ) ;
+                                                rdf:type owl:Class
+                                              ] ;
+                          rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiDengue
+:TerindikasiDengue rdf:type owl:Class ;
+                   owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty :mengalamiManifestasi ;
+                                                                owl:hasValue :Dengue_DemamTinggi
+                                                              ]
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty :mengalamiManifestasi ;
+                                                                owl:hasValue :Dengue_NyeriSendi
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                   rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiDracunculiasis
+:TerindikasiDracunculiasis rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty :mengalamiManifestasi ;
+                                                                        owl:hasValue :Dracunculiasis_CacingKeluarDariKulit
+                                                                      ]
+                                                                    ) ;
+                                                 rdf:type owl:Class
+                                               ] ;
+                           rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiEchinococcosis
+:TerindikasiEchinococcosis rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty :mengalamiManifestasi ;
+                                                                        owl:hasValue :Echinococcosis_KistaHatiParu
+                                                                      ]
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty :mengalamiManifestasi ;
+                                                                        owl:hasValue :Echinococcosis_NyeriPerut
+                                                                      ]
+                                                                    ) ;
+                                                 rdf:type owl:Class
+                                               ] ;
+                           rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiFoodborneTrematodiases
+:TerindikasiFoodborneTrematodiases rdf:type owl:Class ;
+                                   owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty :mengalamiManifestasi ;
+                                                                                owl:hasValue :FoodborneTrematodiases_NyeriPerut
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty :mengalamiManifestasi ;
+                                                                                owl:hasValue :FoodborneTrematodiases_SakitKuningKolangitis
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
+                                   rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiHumanAfricanTrypanosomiasis
+:TerindikasiHumanAfricanTrypanosomiasis rdf:type owl:Class ;
+                                        owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty :mengalamiManifestasi ;
+                                                                                     owl:hasValue :HumanAfricanTrypanosomiasis_DemamTinggi
+                                                                                   ]
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty :mengalamiManifestasi ;
+                                                                                     owl:hasValue :HumanAfricanTrypanosomiasis_GangguanPolaTidur
+                                                                                   ]
+                                                                                 ) ;
+                                                              rdf:type owl:Class
+                                                            ] ;
+                                        rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiLeishmaniasis
+:TerindikasiLeishmaniasis rdf:type owl:Class ;
+                          owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :mengalamiManifestasi ;
+                                                                       owl:hasValue :Leishmaniasis_DemamTinggi
+                                                                     ]
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :mengalamiManifestasi ;
+                                                                       owl:hasValue :Leishmaniasis_PembesaranHatiLimpa
+                                                                     ]
+                                                                   ) ;
+                                                rdf:type owl:Class
+                                              ] ;
+                          rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiLeprosy
+:TerindikasiLeprosy rdf:type owl:Class ;
+                    owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :mengalamiManifestasi ;
+                                                                 owl:hasValue :Leprosy_BercakKulitMatiRasa
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
+                    rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiLymphaticFilariasis
+:TerindikasiLymphaticFilariasis rdf:type owl:Class ;
+                                owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty :mengalamiManifestasi ;
+                                                                             owl:hasValue :LymphaticFilariasis_PembengkakanTungkai
+                                                                           ]
+                                                                         ) ;
+                                                      rdf:type owl:Class
+                                                    ] ;
+                                rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiMycetoma
+:TerindikasiMycetoma rdf:type owl:Class ;
+                     owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty :mengalamiManifestasi ;
+                                                                  owl:hasValue :Mycetoma_LukaBorok
+                                                                ]
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty :mengalamiManifestasi ;
+                                                                  owl:hasValue :Mycetoma_PembengkakanKerasBernanah
+                                                                ]
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ] ;
+                     rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiNoma
+:TerindikasiNoma rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :mengalamiManifestasi ;
+                                                              owl:hasValue :Noma_PembusukanJaringanWajahMulut
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                 rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiOnchocerciasis
+:TerindikasiOnchocerciasis rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty :mengalamiManifestasi ;
+                                                                        owl:hasValue :Onchocerciasis_BenjolanBawahKulit
+                                                                      ]
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty :mengalamiManifestasi ;
+                                                                        owl:hasValue :Onchocerciasis_GangguanPenglihatan
+                                                                      ]
+                                                                    ) ;
+                                                 rdf:type owl:Class
+                                               ] ;
+                           rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiRabies
+:TerindikasiRabies rdf:type owl:Class ;
+                   owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty :mengalamiManifestasi ;
+                                                                owl:hasValue :Rabies_DemamTinggi
+                                                              ]
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty :mengalamiManifestasi ;
+                                                                owl:hasValue :Rabies_Hidrofobia
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                   rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiScabies
+:TerindikasiScabies rdf:type owl:Class ;
+                    owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :mengalamiManifestasi ;
+                                                                 owl:hasValue :Scabies_GatalKulit
+                                                               ]
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :mengalamiManifestasi ;
+                                                                 owl:hasValue :Scabies_RuamKulit
+                                                               ]
+                                                             ) ;
+                                          rdf:type owl:Class
+                                        ] ;
+                    rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiSchistosomiasis
+:TerindikasiSchistosomiasis rdf:type owl:Class ;
+                            owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty :mengalamiManifestasi ;
+                                                                         owl:hasValue :Schistosomiasis_KencingBerdarah
+                                                                       ]
+                                                                     ) ;
+                                                  rdf:type owl:Class
+                                                ] ;
+                            rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiSnakebite
+:TerindikasiSnakebite rdf:type owl:Class ;
+                      owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty :mengalamiManifestasi ;
+                                                                   owl:hasValue :SnakebiteEnvenoming_NyeriHebatBengkak
+                                                                 ]
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty :mengalamiManifestasi ;
+                                                                   owl:hasValue :SnakebiteEnvenoming_Perdarahan
+                                                                 ]
+                                                               ) ;
+                                            rdf:type owl:Class
+                                          ] ;
+                      rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiSoilTransmittedHelminthiases
+:TerindikasiSoilTransmittedHelminthiases rdf:type owl:Class ;
+                                         owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty :mengalamiManifestasi ;
+                                                                                      owl:hasValue :SoilTransmittedHelminthiases_LemasPucatAnemia
+                                                                                    ]
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty :mengalamiManifestasi ;
+                                                                                      owl:hasValue :SoilTransmittedHelminthiases_NyeriPerut
+                                                                                    ]
+                                                                                  ) ;
+                                                               rdf:type owl:Class
+                                                             ] ;
+                                         rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiTaeniasis
+:TerindikasiTaeniasis rdf:type owl:Class ;
+                      owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty :mengalamiManifestasi ;
+                                                                   owl:hasValue :Taeniasis_KeluarSegmenCacingDiTinja
+                                                                 ]
+                                                               ) ;
+                                            rdf:type owl:Class
+                                          ] ;
+                      rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiTrachoma
+:TerindikasiTrachoma rdf:type owl:Class ;
+                     owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty :mengalamiManifestasi ;
+                                                                  owl:hasValue :Trachoma_BuluMataMelengkungKeDalam
+                                                                ]
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ] ;
+                     rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiYaws
+:TerindikasiYaws rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :mengalamiManifestasi ;
+                                                              owl:hasValue :Yaws_BenjolanPapilomaKulit
+                                                            ]
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :mengalamiManifestasi ;
+                                                              owl:hasValue :Yaws_LukaBorok
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                 rdfs:subClassOf :HasilDiagnosis .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TriaseDarurat
+:TriaseDarurat rdf:type owl:Class ;
+               owl:equivalentClass [ owl:intersectionOf ( :KasusPasien
+                                                          [ rdf:type owl:Class ;
+                                                            owl:unionOf ( :TerindikasiNoma
+                                                                          :TerindikasiRabies
+                                                                          :TerindikasiSnakebite
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :memilikiTandaBahaya ;
+                                                                            owl:someValuesFrom :TandaBahaya
+                                                                          ]
+                                                                        )
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ;
+               rdfs:subClassOf :HasilDiagnosis ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :memilikiRujukanMedis ;
+                                 owl:hasValue :SegeraMencariPertolonganPro
+                               ] .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor
+:Vektor rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Aerofobia
+:Aerofobia rdf:type owl:NamedIndividual ,
+                    :GejalaKhas ,
+                    :GejalaSensorik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Bakteri
+:Bakteri rdf:type owl:NamedIndividual ,
+                  :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BanyakIstirahat
+:BanyakIstirahat rdf:type owl:NamedIndividual ,
+                          :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BengkakKelopakMataSatuSisi
+:BengkakKelopakMataSatuSisi rdf:type owl:NamedIndividual ,
+                                     :GejalaKhas ,
+                                     :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanBawahKulit
+:BenjolanBawahKulit rdf:type owl:NamedIndividual ,
+                             :GejalaKhas ,
+                             :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanPapilomaKulit
+:BenjolanPapilomaKulit rdf:type owl:NamedIndividual ,
+                                :GejalaKhas ,
+                                :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanTanpaNyeri
+:BenjolanTanpaNyeri rdf:type owl:NamedIndividual ,
+                             :GejalaKhas ,
+                             :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BercakKulitMatiRasa
+:BercakKulitMatiRasa rdf:type owl:NamedIndividual ,
+                              :GejalaKhas ,
+                              :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Berjemur
+:Berjemur rdf:type owl:NamedIndividual ,
+                   :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BintikMerahPtekie
+:BintikMerahPtekie rdf:type owl:NamedIndividual ,
+                            :GejalaKhas ,
+                            :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BisaUlar
+:BisaUlar rdf:type owl:NamedIndividual ,
+                   :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuluMataMelengkungKeDalam
+:BuluMataMelengkungKeDalam rdf:type owl:NamedIndividual ,
+                                    :GejalaKhas ,
+                                    :GejalaSensorik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer
+:BuruliUlcer rdf:type owl:NamedIndividual ,
+                      :PenyakitBakteri ;
+             :disebabkan :Bakteri ;
+             :memilikiPenangananMandiri :JagaKebersihanLuka ;
+             :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+             :pantanganMandiri :JanganPecahkanLepuhKulit ;
+             :punyaKontakLingkungan :GenanganAir ;
+             :umumTerjadiPadaMusim :Hujan ;
+             :sumberRujukan "WHO Buruli Ulcer Fact Sheet & Global Report on NTDs 2025" ;
+             owl:sameAs <http://www.wikidata.org/entity/Q1017366> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer_BenjolanTanpaNyeri
+:BuruliUlcer_BenjolanTanpaNyeri rdf:type owl:NamedIndividual ,
+                                         :ManifestasiGejala ;
+                                :melibatkanGejala :BenjolanTanpaNyeri ;
+                                :menghubungkanPenyakit :BuruliUlcer ;
+                                :mulaiDirasakanHariKe 14 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer_LukaBorok
+:BuruliUlcer_LukaBorok rdf:type owl:NamedIndividual ,
+                                :ManifestasiGejala ;
+                       :melibatkanGejala :LukaBorok ;
+                       :menghubungkanPenyakit :BuruliUlcer ;
+                       :mulaiDirasakanHariKe 30 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CacingKeluarDariKulit
+:CacingKeluarDariKulit rdf:type owl:NamedIndividual ,
+                                :GejalaKhas ,
+                                :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease
+:ChagasDisease rdf:type owl:NamedIndividual ,
+                        :PenyakitParasit ;
+               :disebabkan :KutuTriatomine ,
+                           :Parasit ;
+               :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+               :memilikiTandaBahaya :GagalJantungAritmia ;
+               :punyaKontakLingkungan :WilayahHutan ;
+               :umumTerjadiPadaMusim :Kemarau ;
+               :sumberRujukan "Materi Blok Kedokteran Tropis; WHO Chagas Disease Fact Sheet (2025)" ;
+               owl:sameAs <http://www.wikidata.org/entity/Q309489> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_BengkakKelopakMataSatuSisi
+:ChagasDisease_BengkakKelopakMataSatuSisi rdf:type owl:NamedIndividual ,
+                                                   :ManifestasiGejala ;
+                                          :melibatkanGejala :BengkakKelopakMataSatuSisi ;
+                                          :menghubungkanPenyakit :ChagasDisease ;
+                                          :mulaiDirasakanHariKe 7 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_DemamTinggi
+:ChagasDisease_DemamTinggi rdf:type owl:NamedIndividual ,
+                                    :ManifestasiGejala ;
+                           :melibatkanGejala :DemamTinggi ;
+                           :menghubungkanPenyakit :ChagasDisease ;
+                           :mulaiDirasakanHariKe 2 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_NyeriPerut
+:ChagasDisease_NyeriPerut rdf:type owl:NamedIndividual ,
+                                   :ManifestasiGejala ;
+                          :melibatkanGejala :NyeriPerut ;
+                          :menghubungkanPenyakit :ChagasDisease ;
+                          :mulaiDirasakanHariKe 5 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciLukaDenganSabun15Menit
+:CuciLukaDenganSabun15Menit rdf:type owl:NamedIndividual ,
+                                     :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciPakaianDenganAirPanas
+:CuciPakaianDenganAirPanas rdf:type owl:NamedIndividual ,
+                                    :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciTungkaiDenganSabunTiapHari
+:CuciTungkaiDenganSabunTiapHari rdf:type owl:NamedIndividual ,
+                                         :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DekatPeternakan
+:DekatPeternakan rdf:type owl:NamedIndividual ,
+                          :Lingkungan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamBerkepanjanganPucatBerat
+:DemamBerkepanjanganPucatBerat rdf:type owl:NamedIndividual ,
+                                        :TandaBahaya .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTinggi
+:DemamTinggi rdf:type owl:NamedIndividual ,
+                      :GejalaSistemik ,
+                      :GejalaUmum .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTurunDisertaiMuntahPerdarahan
+:DemamTurunDisertaiMuntahPerdarahan rdf:type owl:NamedIndividual ,
+                                             :TandaBahaya .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue
+:Dengue rdf:type owl:NamedIndividual ,
+                 :PenyakitVirus ;
+        :disebabkan :Nyamuk ,
+                    :Virus ;
+        :memilikiPenangananMandiri :KompresAirHangat ,
+                                   :KonsumsiParasetamol ,
+                                   :MinumAirPutihBanyak ;
+        :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+        :memilikiTandaBahaya :DemamTurunDisertaiMuntahPerdarahan ;
+        :pantanganMandiri :HindariNSAIDAspirin ;
+        :punyaKontakLingkungan :GenanganAir ;
+        :umumTerjadiPadaMusim :Hujan ;
+        :sumberRujukan "Materi Blok Kedokteran Tropis; Kemenkes RI PNPK Tata Laksana Dengue; WHO Dengue Fact Sheet (2025)" ;
+        owl:sameAs <http://www.wikidata.org/entity/Q152436> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_BintikMerahPtekie
+:Dengue_BintikMerahPtekie rdf:type owl:NamedIndividual ,
+                                   :ManifestasiGejala ;
+                          :melibatkanGejala :BintikMerahPtekie ;
+                          :menghubungkanPenyakit :Dengue ;
+                          :mulaiDirasakanHariKe 3 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_DemamTinggi
+:Dengue_DemamTinggi rdf:type owl:NamedIndividual ,
+                             :ManifestasiGejala ;
+                    :melibatkanGejala :DemamTinggi ;
+                    :menghubungkanPenyakit :Dengue ;
+                    :mulaiDirasakanHariKe 1 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_NyeriBelakangMata
+:Dengue_NyeriBelakangMata rdf:type owl:NamedIndividual ,
+                                   :ManifestasiGejala ;
+                          :melibatkanGejala :NyeriBelakangMata ;
+                          :menghubungkanPenyakit :Dengue ;
+                          :mulaiDirasakanHariKe 2 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_NyeriSendi
+:Dengue_NyeriSendi rdf:type owl:NamedIndividual ,
+                            :ManifestasiGejala ;
+                   :melibatkanGejala :NyeriSendi ;
+                   :menghubungkanPenyakit :Dengue ;
+                   :mulaiDirasakanHariKe 3 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Diare
+:Diare rdf:type owl:NamedIndividual ,
+                :GejalaPencernaan ,
+                :GejalaUmum .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DiareBerdarah
+:DiareBerdarah rdf:type owl:NamedIndividual ,
+                        :GejalaKhas ,
+                        :GejalaPencernaan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis
+:Dracunculiasis rdf:type owl:NamedIndividual ,
+                         :PenyakitParasit ;
+                :disebabkan :KutuAirCyclops ,
+                            :Parasit ;
+                :memilikiPenangananMandiri :JagaKebersihanLuka ;
+                :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+                :punyaKontakLingkungan :SanitasiBuruk ;
+                :umumTerjadiPadaMusim :Hujan ;
+                :sumberRujukan "WHO Dracunculiasis (Guinea-worm disease) Fact Sheet (Jan 2025)" ;
+                owl:sameAs <http://www.wikidata.org/entity/Q843232> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis_CacingKeluarDariKulit
+:Dracunculiasis_CacingKeluarDariKulit rdf:type owl:NamedIndividual ,
+                                               :ManifestasiGejala ;
+                                      :melibatkanGejala :CacingKeluarDariKulit ;
+                                      :menghubungkanPenyakit :Dracunculiasis ;
+                                      :mulaiDirasakanHariKe 365 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis_GatalKulit
+:Dracunculiasis_GatalKulit rdf:type owl:NamedIndividual ,
+                                    :ManifestasiGejala ;
+                           :melibatkanGejala :GatalKulit ;
+                           :menghubungkanPenyakit :Dracunculiasis ;
+                           :mulaiDirasakanHariKe 1 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis_LukaBorok
+:Dracunculiasis_LukaBorok rdf:type owl:NamedIndividual ,
+                                   :ManifestasiGejala ;
+                          :melibatkanGejala :LukaBorok ;
+                          :menghubungkanPenyakit :Dracunculiasis ;
+                          :mulaiDirasakanHariKe 4 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis
+:Echinococcosis rdf:type owl:NamedIndividual ,
+                         :PenyakitParasit ;
+                :disebabkan :Parasit ;
+                :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+                :punyaKontakLingkungan :DekatPeternakan ;
+                :umumTerjadiPadaMusim :Kemarau ;
+                :sumberRujukan "WHO Echinococcosis Fact Sheet & Global Report on NTDs 2025" ;
+                owl:sameAs <http://www.wikidata.org/entity/Q319227> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis_KistaHatiParu
+:Echinococcosis_KistaHatiParu rdf:type owl:NamedIndividual ,
+                                       :ManifestasiGejala ;
+                              :melibatkanGejala :KistaHatiParu ;
+                              :menghubungkanPenyakit :Echinococcosis ;
+                              :mulaiDirasakanHariKe 180 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis_NyeriPerut
+:Echinococcosis_NyeriPerut rdf:type owl:NamedIndividual ,
+                                    :ManifestasiGejala ;
+                           :melibatkanGejala :NyeriPerut ;
+                           :menghubungkanPenyakit :Echinococcosis ;
+                           :mulaiDirasakanHariKe 14 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases
+:FoodborneTrematodiases rdf:type owl:NamedIndividual ,
+                                 :PenyakitParasit ;
+                        :disebabkan :Parasit ;
+                        :memilikiPenangananMandiri :MemasakSampaiBenarMatang ;
+                        :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+                        :punyaKontakLingkungan :SanitasiBuruk ;
+                        :umumTerjadiPadaMusim :Hujan ;
+                        :sumberRujukan "WHO Foodborne Trematode Infections Fact Sheet & Global Report on NTDs 2025" ;
+                        owl:sameAs <http://www.wikidata.org/entity/Q1437175> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_Diare
+:FoodborneTrematodiases_Diare rdf:type owl:NamedIndividual ,
+                                       :ManifestasiGejala ;
+                              :melibatkanGejala :Diare ;
+                              :menghubungkanPenyakit :FoodborneTrematodiases ;
+                              :mulaiDirasakanHariKe 3 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_NyeriPerut
+:FoodborneTrematodiases_NyeriPerut rdf:type owl:NamedIndividual ,
+                                            :ManifestasiGejala ;
+                                   :melibatkanGejala :NyeriPerut ;
+                                   :menghubungkanPenyakit :FoodborneTrematodiases ;
+                                   :mulaiDirasakanHariKe 2 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_SakitKuningKolangitis
+:FoodborneTrematodiases_SakitKuningKolangitis rdf:type owl:NamedIndividual ,
+                                                       :ManifestasiGejala ;
+                                              :melibatkanGejala :SakitKuningKolangitis ;
+                                              :menghubungkanPenyakit :FoodborneTrematodiases ;
+                                              :mulaiDirasakanHariKe 14 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GagalJantungAritmia
+:GagalJantungAritmia rdf:type owl:NamedIndividual ,
+                              :TandaBahaya .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GangguanPenglihatan
+:GangguanPenglihatan rdf:type owl:NamedIndividual ,
+                              :GejalaKhas ,
+                              :GejalaSensorik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GangguanPolaTidur
+:GangguanPolaTidur rdf:type owl:NamedIndividual ,
+                            :GejalaKhas ,
+                            :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalKulit
+:GatalKulit rdf:type owl:NamedIndividual ,
+                     :GejalaKulit ,
+                     :GejalaUmum .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalMemberatMalamHari
+:GatalMemberatMalamHari rdf:type owl:NamedIndividual ,
+                                 :GejalaKhas ,
+                                 :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GenanganAir
+:GenanganAir rdf:type owl:NamedIndividual ,
+                      :Lingkungan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hidrofobia
+:Hidrofobia rdf:type owl:NamedIndividual ,
+                     :GejalaKhas ,
+                     :GejalaSensorik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HindariMenggarukLuka
+:HindariMenggarukLuka rdf:type owl:NamedIndividual ,
+                               :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HindariNSAIDAspirin
+:HindariNSAIDAspirin rdf:type owl:NamedIndividual ,
+                              :LaranganTindakan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hipersalivasi
+:Hipersalivasi rdf:type owl:NamedIndividual ,
+                        :GejalaKhas ,
+                        :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan
+:Hujan rdf:type owl:NamedIndividual ,
+                :Musim .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis
+:HumanAfricanTrypanosomiasis rdf:type owl:NamedIndividual ,
+                                      :PenyakitParasit ;
+                             :disebabkan :LalatTsetse ,
+                                         :Parasit ;
+                             :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+                             :memilikiTandaBahaya :PenurunanKesadaranKoma ;
+                             :punyaKontakLingkungan :WilayahHutan ;
+                             :umumTerjadiPadaMusim :Hujan ;
+                             :sumberRujukan "Materi Blok Kedokteran Tropis; WHO Human African Trypanosomiasis Fact Sheet (2025)" ;
+                             owl:sameAs <http://www.wikidata.org/entity/Q310037> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_DemamTinggi
+:HumanAfricanTrypanosomiasis_DemamTinggi rdf:type owl:NamedIndividual ,
+                                                  :ManifestasiGejala ;
+                                         :melibatkanGejala :DemamTinggi ;
+                                         :menghubungkanPenyakit :HumanAfricanTrypanosomiasis ;
+                                         :mulaiDirasakanHariKe 3 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_GangguanPolaTidur
+:HumanAfricanTrypanosomiasis_GangguanPolaTidur rdf:type owl:NamedIndividual ,
+                                                        :ManifestasiGejala ;
+                                               :melibatkanGejala :GangguanPolaTidur ;
+                                               :menghubungkanPenyakit :HumanAfricanTrypanosomiasis ;
+                                               :mulaiDirasakanHariKe 14 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_PembengkakanKelenjar
+:HumanAfricanTrypanosomiasis_PembengkakanKelenjar rdf:type owl:NamedIndividual ,
+                                                           :ManifestasiGejala ;
+                                                  :melibatkanGejala :PembengkakanKelenjar ;
+                                                  :menghubungkanPenyakit :HumanAfricanTrypanosomiasis ;
+                                                  :mulaiDirasakanHariKe 7 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka
+:JagaKebersihanLuka rdf:type owl:NamedIndividual ,
+                             :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Jamur
+:Jamur rdf:type owl:NamedIndividual ,
+                :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JanganGunakanTorniketAtauIsapLuka
+:JanganGunakanTorniketAtauIsapLuka rdf:type owl:NamedIndividual ,
+                                            :LaranganTindakan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JanganPecahkanLepuhKulit
+:JanganPecahkanLepuhKulit rdf:type owl:NamedIndividual ,
+                                   :LaranganTindakan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JemurKasurSprei
+:JemurKasurSprei rdf:type owl:NamedIndividual ,
+                          :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kejang
+:Kejang rdf:type owl:NamedIndividual ,
+                 :GejalaDarurat ,
+                 :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KejangBerulangNeurosistiserkosis
+:KejangBerulangNeurosistiserkosis rdf:type owl:NamedIndividual ,
+                                           :TandaBahaya .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KejangDanKelumpuhanOtot
+:KejangDanKelumpuhanOtot rdf:type owl:NamedIndividual ,
+                                  :TandaBahaya .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KeluarSegmenCacingDiTinja
+:KeluarSegmenCacingDiTinja rdf:type owl:NamedIndividual ,
+                                    :GejalaKhas ,
+                                    :GejalaPencernaan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KelumpuhanOtotPernapasan
+:KelumpuhanOtotPernapasan rdf:type owl:NamedIndividual ,
+                                   :GejalaDarurat ,
+                                   :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau
+:Kemarau rdf:type owl:NamedIndividual ,
+                  :Musim .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KencingBerdarah
+:KencingBerdarah rdf:type owl:NamedIndividual ,
+                          :GejalaKhas ,
+                          :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KistaHatiParu
+:KistaHatiParu rdf:type owl:NamedIndividual ,
+                        :GejalaKhas ,
+                        :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KompresAirHangat
+:KompresAirHangat rdf:type owl:NamedIndividual ,
+                           :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KonsumsiParasetamol
+:KonsumsiParasetamol rdf:type owl:NamedIndividual ,
+                              :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KutuAirCyclops
+:KutuAirCyclops rdf:type owl:NamedIndividual ,
+                         :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KutuTriatomine
+:KutuTriatomine rdf:type owl:NamedIndividual ,
+                         :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatHitamSimulium
+:LalatHitamSimulium rdf:type owl:NamedIndividual ,
+                             :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatMuscaSorbens
+:LalatMuscaSorbens rdf:type owl:NamedIndividual ,
+                            :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatPasir
+:LalatPasir rdf:type owl:NamedIndividual ,
+                     :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatTsetse
+:LalatTsetse rdf:type owl:NamedIndividual ,
+                      :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis
+:Leishmaniasis rdf:type owl:NamedIndividual ,
+                        :PenyakitParasit ;
+               :disebabkan :LalatPasir ,
+                           :Parasit ;
+               :memilikiPenangananMandiri :JagaKebersihanLuka ;
+               :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+               :memilikiTandaBahaya :DemamBerkepanjanganPucatBerat ;
+               :punyaKontakLingkungan :WilayahHutan ;
+               :umumTerjadiPadaMusim :Kemarau ;
+               :sumberRujukan "Materi Blok Kedokteran Tropis; WHO Leishmaniasis Fact Sheet (2025)" ;
+               owl:sameAs <http://www.wikidata.org/entity/Q206583> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_DemamTinggi
+:Leishmaniasis_DemamTinggi rdf:type owl:NamedIndividual ,
+                                    :ManifestasiGejala ;
+                           :melibatkanGejala :DemamTinggi ;
+                           :menghubungkanPenyakit :Leishmaniasis ;
+                           :mulaiDirasakanHariKe 3 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_LukaBorok
+:Leishmaniasis_LukaBorok rdf:type owl:NamedIndividual ,
+                                  :ManifestasiGejala ;
+                         :melibatkanGejala :LukaBorok ;
+                         :menghubungkanPenyakit :Leishmaniasis ;
+                         :mulaiDirasakanHariKe 10 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_PembesaranHatiLimpa
+:Leishmaniasis_PembesaranHatiLimpa rdf:type owl:NamedIndividual ,
+                                            :ManifestasiGejala ;
+                                   :melibatkanGejala :PembesaranHatiLimpa ;
+                                   :menghubungkanPenyakit :Leishmaniasis ;
+                                   :mulaiDirasakanHariKe 21 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LemasPucatAnemia
+:LemasPucatAnemia rdf:type owl:NamedIndividual ,
+                           :GejalaSistemik ,
+                           :GejalaUmum .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy
+:Leprosy rdf:type owl:NamedIndividual ,
+                  :PenyakitBakteri ;
+         :disebabkan :Bakteri ;
+         :memilikiPenangananMandiri :JagaKebersihanLuka ;
+         :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+         :punyaKontakLingkungan :PadatPenduduk ;
+         :umumTerjadiPadaMusim :Kemarau ;
+         :sumberRujukan "WHO Leprosy (Hansen's Disease) Fact Sheet (2026) & Global Report on NTDs 2025; Kemenkes RI PNPK Kusta" ;
+         owl:sameAs <http://www.wikidata.org/entity/Q129143> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_BercakKulitMatiRasa
+:Leprosy_BercakKulitMatiRasa rdf:type owl:NamedIndividual ,
+                                      :ManifestasiGejala ;
+                             :melibatkanGejala :BercakKulitMatiRasa ;
+                             :menghubungkanPenyakit :Leprosy ;
+                             :mulaiDirasakanHariKe 90 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_GatalKulit
+:Leprosy_GatalKulit rdf:type owl:NamedIndividual ,
+                             :ManifestasiGejala ;
+                    :melibatkanGejala :GatalKulit ;
+                    :menghubungkanPenyakit :Leprosy ;
+                    :mulaiDirasakanHariKe 90 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_RuamKulit
+:Leprosy_RuamKulit rdf:type owl:NamedIndividual ,
+                            :ManifestasiGejala ;
+                   :melibatkanGejala :RuamKulit ;
+                   :menghubungkanPenyakit :Leprosy ;
+                   :mulaiDirasakanHariKe 120 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LukaBorok
+:LukaBorok rdf:type owl:NamedIndividual ,
+                    :GejalaKhas ,
+                    :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis
+:LymphaticFilariasis rdf:type owl:NamedIndividual ,
+                              :PenyakitParasit ;
+                     :disebabkan :Nyamuk ,
+                                 :Parasit ;
+                     :memilikiPenangananMandiri :BanyakIstirahat ,
+                                                :CuciTungkaiDenganSabunTiapHari ,
+                                                :TinggikanKakiSaatIstirahat ;
+                     :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+                     :punyaKontakLingkungan :GenanganAir ;
+                     :umumTerjadiPadaMusim :Hujan ;
+                     :sumberRujukan "Materi Blok Kedokteran Tropis; Permenkes No. 94/2014 Filariasis; WHO Lymphatic Filariasis Fact Sheet (2025)" ;
+                     owl:sameAs <http://www.wikidata.org/entity/Q839180> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis_PembengkakanKelenjar
+:LymphaticFilariasis_PembengkakanKelenjar rdf:type owl:NamedIndividual ,
+                                                   :ManifestasiGejala ;
+                                          :melibatkanGejala :PembengkakanKelenjar ;
+                                          :menghubungkanPenyakit :LymphaticFilariasis ;
+                                          :mulaiDirasakanHariKe 5 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis_PembengkakanTungkai
+:LymphaticFilariasis_PembengkakanTungkai rdf:type owl:NamedIndividual ,
+                                                  :ManifestasiGejala ;
+                                         :melibatkanGejala :PembengkakanTungkai ;
+                                         :menghubungkanPenyakit :LymphaticFilariasis ;
+                                         :mulaiDirasakanHariKe 60 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MandiBersih
+:MandiBersih rdf:type owl:NamedIndividual ,
+                      :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MemakaiAlasKaki
+:MemakaiAlasKaki rdf:type owl:NamedIndividual ,
+                          :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MemasakSampaiBenarMatang
+:MemasakSampaiBenarMatang rdf:type owl:NamedIndividual ,
+                                   :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MenjagaKebersihanTangan
+:MenjagaKebersihanTangan rdf:type owl:NamedIndividual ,
+                                  :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MinumAirPutihBanyak
+:MinumAirPutihBanyak rdf:type owl:NamedIndividual ,
+                              :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MuntahDarahPembesaranPerut
+:MuntahDarahPembesaranPerut rdf:type owl:NamedIndividual ,
+                                     :TandaBahaya .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma
+:Mycetoma rdf:type owl:NamedIndividual ,
+                   :PenyakitJamur ;
+          :disebabkan :Jamur ;
+          :memilikiPenangananMandiri :JagaKebersihanLuka ;
+          :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+          :punyaKontakLingkungan :WilayahHutan ;
+          :umumTerjadiPadaMusim :Kemarau ;
+          :sumberRujukan "WHO Mycetoma Fact Sheet & Global Report on NTDs 2025" ;
+          owl:sameAs <http://www.wikidata.org/entity/Q1956555> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma_LukaBorok
+:Mycetoma_LukaBorok rdf:type owl:NamedIndividual ,
+                             :ManifestasiGejala ;
+                    :melibatkanGejala :LukaBorok ;
+                    :menghubungkanPenyakit :Mycetoma ;
+                    :mulaiDirasakanHariKe 60 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma_PembengkakanKerasBernanah
+:Mycetoma_PembengkakanKerasBernanah rdf:type owl:NamedIndividual ,
+                                             :ManifestasiGejala ;
+                                    :melibatkanGejala :PembengkakanKerasBernanah ;
+                                    :menghubungkanPenyakit :Mycetoma ;
+                                    :mulaiDirasakanHariKe 60 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NekrosisWajahCepat
+:NekrosisWajahCepat rdf:type owl:NamedIndividual ,
+                             :TandaBahaya .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma
+:Noma rdf:type owl:NamedIndividual ,
+               :PenyakitBakteri ;
+      :disebabkan :Bakteri ;
+      :memilikiPenangananMandiri :JagaKebersihanLuka ;
+      :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+      :memilikiTandaBahaya :NekrosisWajahCepat ;
+      :punyaKontakLingkungan :SanitasiBuruk ;
+      :umumTerjadiPadaMusim :Hujan ;
+      :sumberRujukan "WHO Noma Fact Sheet & Global Report on NTDs 2025" ;
+      owl:sameAs <http://www.wikidata.org/entity/Q1135767> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma_LukaBorok
+:Noma_LukaBorok rdf:type owl:NamedIndividual ,
+                         :ManifestasiGejala ;
+                :melibatkanGejala :LukaBorok ;
+                :menghubungkanPenyakit :Noma ;
+                :mulaiDirasakanHariKe 3 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma_PembusukanJaringanWajahMulut
+:Noma_PembusukanJaringanWajahMulut rdf:type owl:NamedIndividual ,
+                                            :ManifestasiGejala ;
+                                   :melibatkanGejala :PembusukanJaringanWajahMulut ;
+                                   :menghubungkanPenyakit :Noma ;
+                                   :mulaiDirasakanHariKe 5 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Nyamuk
+:Nyamuk rdf:type owl:NamedIndividual ,
+                 :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriBelakangMata
+:NyeriBelakangMata rdf:type owl:NamedIndividual ,
+                            :GejalaKhas ,
+                            :GejalaSensorik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriHebatBengkak
+:NyeriHebatBengkak rdf:type owl:NamedIndividual ,
+                            :GejalaDarurat ,
+                            :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriPerut
+:NyeriPerut rdf:type owl:NamedIndividual ,
+                     :GejalaPencernaan ,
+                     :GejalaUmum .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriSendi
+:NyeriSendi rdf:type owl:NamedIndividual ,
+                     :GejalaKhas ,
+                     :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ObatiSeluruhAnggotaSerumah
+:ObatiSeluruhAnggotaSerumah rdf:type owl:NamedIndividual ,
+                                     :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis
+:Onchocerciasis rdf:type owl:NamedIndividual ,
+                         :PenyakitParasit ;
+                :disebabkan :LalatHitamSimulium ,
+                            :Parasit ;
+                :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+                :punyaKontakLingkungan :WilayahHutan ;
+                :umumTerjadiPadaMusim :Hujan ;
+                :sumberRujukan "WHO Onchocerciasis Fact Sheet (Dec 2025) & Elimination Progress Report (Oct 2026)" ;
+                owl:sameAs <http://www.wikidata.org/entity/Q605809> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_BenjolanBawahKulit
+:Onchocerciasis_BenjolanBawahKulit rdf:type owl:NamedIndividual ,
+                                            :ManifestasiGejala ;
+                                   :melibatkanGejala :BenjolanBawahKulit ;
+                                   :menghubungkanPenyakit :Onchocerciasis ;
+                                   :mulaiDirasakanHariKe 60 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_GangguanPenglihatan
+:Onchocerciasis_GangguanPenglihatan rdf:type owl:NamedIndividual ,
+                                             :ManifestasiGejala ;
+                                    :melibatkanGejala :GangguanPenglihatan ;
+                                    :menghubungkanPenyakit :Onchocerciasis ;
+                                    :mulaiDirasakanHariKe 30 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_GatalKulit
+:Onchocerciasis_GatalKulit rdf:type owl:NamedIndividual ,
+                                    :ManifestasiGejala ;
+                           :melibatkanGejala :GatalKulit ;
+                           :menghubungkanPenyakit :Onchocerciasis ;
+                           :mulaiDirasakanHariKe 2 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PadatPenduduk
+:PadatPenduduk rdf:type owl:NamedIndividual ,
+                        :Lingkungan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit
+:Parasit rdf:type owl:NamedIndividual ,
+                  :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_01
+:PasienUji_01 rdf:type owl:NamedIndividual ,
+                       :KasusPasien ;
+              :mengalamiManifestasi :Dengue_DemamTinggi ,
+                                    :Dengue_NyeriSendi .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_02
+:PasienUji_02 rdf:type owl:NamedIndividual ,
+                       :KasusPasien ;
+              :mengalamiManifestasi :Rabies_DemamTinggi ,
+                                    :Rabies_Hidrofobia .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_03
+:PasienUji_03 rdf:type owl:NamedIndividual ,
+                       :KasusPasien ;
+              :mengalamiManifestasi :SnakebiteEnvenoming_NyeriHebatBengkak ,
+                                    :SnakebiteEnvenoming_Perdarahan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_04
+:PasienUji_04 rdf:type owl:NamedIndividual ,
+                       :KasusPasien ;
+              :mengalamiManifestasi :Noma_PembusukanJaringanWajahMulut .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_05
+:PasienUji_05 rdf:type owl:NamedIndividual ,
+                       :KasusPasien ;
+              :mengalamiManifestasi :Leprosy_BercakKulitMatiRasa ,
+                                    :Leprosy_RuamKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_06
+:PasienUji_06 rdf:type owl:NamedIndividual ,
+                       :KasusPasien ;
+              :memilikiTandaBahaya :DemamTurunDisertaiMuntahPerdarahan ;
+              :mengalamiManifestasi :Dengue_BintikMerahPtekie ,
+                                    :Dengue_DemamTinggi ,
+                                    :Dengue_NyeriSendi .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanKelenjar
+:PembengkakanKelenjar rdf:type owl:NamedIndividual ,
+                               :GejalaSistemik ,
+                               :GejalaUmum .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanKerasBernanah
+:PembengkakanKerasBernanah rdf:type owl:NamedIndividual ,
+                                    :GejalaKhas ,
+                                    :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanTungkai
+:PembengkakanTungkai rdf:type owl:NamedIndividual ,
+                              :GejalaKhas ,
+                              :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembesaranHatiLimpa
+:PembesaranHatiLimpa rdf:type owl:NamedIndividual ,
+                              :GejalaKhas ,
+                              :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembusukanJaringanWajahMulut
+:PembusukanJaringanWajahMulut rdf:type owl:NamedIndividual ,
+                                       :GejalaDarurat ,
+                                       :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenurunanKesadaranKoma
+:PenurunanKesadaranKoma rdf:type owl:NamedIndividual ,
+                                 :TandaBahaya .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Perdarahan
+:Perdarahan rdf:type owl:NamedIndividual ,
+                     :GejalaDarurat ,
+                     :GejalaSistemik .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PerdarahanTidakBerhentiSesak
+:PerdarahanTidakBerhentiSesak rdf:type owl:NamedIndividual ,
+                                       :TandaBahaya .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PosisikanGigitanLebihRendahDariJantung
+:PosisikanGigitanLebihRendahDariJantung rdf:type owl:NamedIndividual ,
+                                                 :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies
+:Rabies rdf:type owl:NamedIndividual ,
+                 :PenyakitVirus ;
+        :disebabkan :Virus ;
+        :memilikiPenangananMandiri :CuciLukaDenganSabun15Menit ,
+                                   :JagaKebersihanLuka ;
+        :memilikiRujukanMedis :SegeraMencariPertolonganPro ,
+                              :SegeraVaksinasiVAR_SAR ;
+        :memilikiTandaBahaya :KejangDanKelumpuhanOtot ;
+        :punyaKontakLingkungan :DekatPeternakan ;
+        :umumTerjadiPadaMusim :Kemarau ;
+        :sumberRujukan "Materi Blok Kedokteran Tropis; Kemenkes RI Buku Saku Rabies; WHO Rabies Fact Sheet (2025)" ;
+        owl:sameAs <http://www.wikidata.org/entity/Q42278> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Aerofobia
+:Rabies_Aerofobia rdf:type owl:NamedIndividual ,
+                           :ManifestasiGejala ;
+                  :melibatkanGejala :Aerofobia ;
+                  :menghubungkanPenyakit :Rabies ;
+                  :mulaiDirasakanHariKe 30 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_DemamTinggi
+:Rabies_DemamTinggi rdf:type owl:NamedIndividual ,
+                             :ManifestasiGejala ;
+                    :melibatkanGejala :DemamTinggi ;
+                    :menghubungkanPenyakit :Rabies ;
+                    :mulaiDirasakanHariKe 30 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Hidrofobia
+:Rabies_Hidrofobia rdf:type owl:NamedIndividual ,
+                            :ManifestasiGejala ;
+                   :melibatkanGejala :Hidrofobia ;
+                   :menghubungkanPenyakit :Rabies ;
+                   :mulaiDirasakanHariKe 30 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Hipersalivasi
+:Rabies_Hipersalivasi rdf:type owl:NamedIndividual ,
+                               :ManifestasiGejala ;
+                      :melibatkanGejala :Hipersalivasi ;
+                      :menghubungkanPenyakit :Rabies ;
+                      :mulaiDirasakanHariKe 30 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RuamKulit
+:RuamKulit rdf:type owl:NamedIndividual ,
+                    :GejalaKulit ,
+                    :GejalaUmum .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RuamSelaJariLipatan
+:RuamSelaJariLipatan rdf:type owl:NamedIndividual ,
+                              :GejalaKhas ,
+                              :GejalaKulit .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SakitKuningKolangitis
+:SakitKuningKolangitis rdf:type owl:NamedIndividual ,
+                                :GejalaKhas ,
+                                :GejalaPencernaan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SanitasiBuruk
+:SanitasiBuruk rdf:type owl:NamedIndividual ,
+                        :Lingkungan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies
+:Scabies rdf:type owl:NamedIndividual ,
+                  :PenyakitParasit ;
+         :disebabkan :Parasit ,
+                     :Tungau ;
+         :memilikiPenangananMandiri :Berjemur ,
+                                    :CuciPakaianDenganAirPanas ,
+                                    :HindariMenggarukLuka ,
+                                    :JemurKasurSprei ,
+                                    :ObatiSeluruhAnggotaSerumah ;
+         :punyaKontakLingkungan :PadatPenduduk ;
+         :umumTerjadiPadaMusim :Hujan ;
+         :sumberRujukan "Materi Blok Kedokteran Tropis; Kemenkes RI PPK Scabies; WHO Scabies Fact Sheet (2025)" ;
+         owl:sameAs <http://www.wikidata.org/entity/Q192135> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_GatalKulit
+:Scabies_GatalKulit rdf:type owl:NamedIndividual ,
+                             :ManifestasiGejala ;
+                    :melibatkanGejala :GatalKulit ;
+                    :menghubungkanPenyakit :Scabies ;
+                    :mulaiDirasakanHariKe 1 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_GatalMemberatMalamHari
+:Scabies_GatalMemberatMalamHari rdf:type owl:NamedIndividual ,
+                                         :ManifestasiGejala ;
+                                :melibatkanGejala :GatalMemberatMalamHari ;
+                                :menghubungkanPenyakit :Scabies ;
+                                :mulaiDirasakanHariKe 1 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_RuamKulit
+:Scabies_RuamKulit rdf:type owl:NamedIndividual ,
+                            :ManifestasiGejala ;
+                   :melibatkanGejala :RuamKulit ;
+                   :menghubungkanPenyakit :Scabies ;
+                   :mulaiDirasakanHariKe 3 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_RuamSelaJariLipatan
+:Scabies_RuamSelaJariLipatan rdf:type owl:NamedIndividual ,
+                                      :ManifestasiGejala ;
+                             :melibatkanGejala :RuamSelaJariLipatan ;
+                             :menghubungkanPenyakit :Scabies ;
+                             :mulaiDirasakanHariKe 2 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis
+:Schistosomiasis rdf:type owl:NamedIndividual ,
+                          :PenyakitParasit ;
+                 :disebabkan :Parasit ,
+                             :SiputAirTawar ;
+                 :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+                 :memilikiTandaBahaya :MuntahDarahPembesaranPerut ;
+                 :punyaKontakLingkungan :GenanganAir ;
+                 :umumTerjadiPadaMusim :Hujan ;
+                 :sumberRujukan "Materi Blok Kedokteran Tropis; Kemenkes RI Pedoman Schistosomiasis; WHO Schistosomiasis Fact Sheet (2025)" ;
+                 owl:sameAs <http://www.wikidata.org/entity/Q212623> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_Diare
+:Schistosomiasis_Diare rdf:type owl:NamedIndividual ,
+                                :ManifestasiGejala ;
+                       :melibatkanGejala :Diare ;
+                       :menghubungkanPenyakit :Schistosomiasis ;
+                       :mulaiDirasakanHariKe 5 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_DiareBerdarah
+:Schistosomiasis_DiareBerdarah rdf:type owl:NamedIndividual ,
+                                        :ManifestasiGejala ;
+                               :melibatkanGejala :DiareBerdarah ;
+                               :menghubungkanPenyakit :Schistosomiasis ;
+                               :mulaiDirasakanHariKe 14 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_KencingBerdarah
+:Schistosomiasis_KencingBerdarah rdf:type owl:NamedIndividual ,
+                                          :ManifestasiGejala ;
+                                 :melibatkanGejala :KencingBerdarah ;
+                                 :menghubungkanPenyakit :Schistosomiasis ;
+                                 :mulaiDirasakanHariKe 14 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_NyeriPerut
+:Schistosomiasis_NyeriPerut rdf:type owl:NamedIndividual ,
+                                     :ManifestasiGejala ;
+                            :melibatkanGejala :NyeriPerut ;
+                            :menghubungkanPenyakit :Schistosomiasis ;
+                            :mulaiDirasakanHariKe 4 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro
+:SegeraMencariPertolonganPro rdf:type owl:NamedIndividual ,
+                                      :RujukanFaskes .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraVaksinasiVAR_SAR
+:SegeraVaksinasiVAR_SAR rdf:type owl:NamedIndividual ,
+                                 :RujukanFaskes .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Serangga
+:Serangga rdf:type owl:NamedIndividual ,
+                   :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SiputAirTawar
+:SiputAirTawar rdf:type owl:NamedIndividual ,
+                        :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming
+:SnakebiteEnvenoming rdf:type owl:NamedIndividual ,
+                              :PenyakitToksin ;
+                     :disebabkan :BisaUlar ;
+                     :memilikiPenangananMandiri :PosisikanGigitanLebihRendahDariJantung ;
+                     :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+                     :memilikiTandaBahaya :PerdarahanTidakBerhentiSesak ;
+                     :pantanganMandiri :JanganGunakanTorniketAtauIsapLuka ;
+                     :punyaKontakLingkungan :WilayahHutan ;
+                     :umumTerjadiPadaMusim :Hujan ;
+                     :sumberRujukan "WHO Snakebite Envenoming Fact Sheet (2026) & Guidelines for Management of Snakebites" ;
+                     owl:sameAs <http://www.wikidata.org/entity/Q131448> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_KelumpuhanOtotPernapasan
+:SnakebiteEnvenoming_KelumpuhanOtotPernapasan rdf:type owl:NamedIndividual ,
+                                                       :ManifestasiGejala ;
+                                              :melibatkanGejala :KelumpuhanOtotPernapasan ;
+                                              :menghubungkanPenyakit :SnakebiteEnvenoming ;
+                                              :mulaiDirasakanHariKe 1 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_NyeriHebatBengkak
+:SnakebiteEnvenoming_NyeriHebatBengkak rdf:type owl:NamedIndividual ,
+                                                :ManifestasiGejala ;
+                                       :melibatkanGejala :NyeriHebatBengkak ;
+                                       :menghubungkanPenyakit :SnakebiteEnvenoming ;
+                                       :mulaiDirasakanHariKe 1 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_Perdarahan
+:SnakebiteEnvenoming_Perdarahan rdf:type owl:NamedIndividual ,
+                                         :ManifestasiGejala ;
+                                :melibatkanGejala :Perdarahan ;
+                                :menghubungkanPenyakit :SnakebiteEnvenoming ;
+                                :mulaiDirasakanHariKe 1 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases
+:SoilTransmittedHelminthiases rdf:type owl:NamedIndividual ,
+                                       :PenyakitParasit ;
+                              :disebabkan :Parasit ;
+                              :memilikiPenangananMandiri :MandiBersih ,
+                                                         :MemakaiAlasKaki ,
+                                                         :MenjagaKebersihanTangan ;
+                              :memilikiTandaBahaya :SumbatanUsusIleus ;
+                              :punyaKontakLingkungan :SanitasiBuruk ;
+                              :umumTerjadiPadaMusim :Hujan ;
+                              :sumberRujukan "Materi Blok Kedokteran Tropis; Permenkes No. 15/2017 Penanggulangan Cacingan; WHO STH Fact Sheet (2025)" ;
+                              owl:sameAs <http://www.wikidata.org/entity/Q7554904> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_Diare
+:SoilTransmittedHelminthiases_Diare rdf:type owl:NamedIndividual ,
+                                             :ManifestasiGejala ;
+                                    :melibatkanGejala :Diare ;
+                                    :menghubungkanPenyakit :SoilTransmittedHelminthiases ;
+                                    :mulaiDirasakanHariKe 4 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_LemasPucatAnemia
+:SoilTransmittedHelminthiases_LemasPucatAnemia rdf:type owl:NamedIndividual ,
+                                                        :ManifestasiGejala ;
+                                               :melibatkanGejala :LemasPucatAnemia ;
+                                               :menghubungkanPenyakit :SoilTransmittedHelminthiases ;
+                                               :mulaiDirasakanHariKe 14 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_NyeriPerut
+:SoilTransmittedHelminthiases_NyeriPerut rdf:type owl:NamedIndividual ,
+                                                  :ManifestasiGejala ;
+                                         :melibatkanGejala :NyeriPerut ;
+                                         :menghubungkanPenyakit :SoilTransmittedHelminthiases ;
+                                         :mulaiDirasakanHariKe 3 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SumbatanUsusIleus
+:SumbatanUsusIleus rdf:type owl:NamedIndividual ,
+                            :TandaBahaya .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis
+:Taeniasis rdf:type owl:NamedIndividual ,
+                    :PenyakitParasit ;
+           :disebabkan :Parasit ;
+           :memilikiPenangananMandiri :MemasakSampaiBenarMatang ;
+           :memilikiTandaBahaya :KejangBerulangNeurosistiserkosis ,
+                                :SumbatanUsusIleus ;
+           :punyaKontakLingkungan :DekatPeternakan ;
+           :umumTerjadiPadaMusim :Kemarau ;
+           :sumberRujukan "Materi Blok Kedokteran Tropis; Kemenkes RI Pedoman Taeniasis/Sistiserkosis; WHO Taeniasis Fact Sheet (2025)" ;
+           owl:sameAs <http://www.wikidata.org/entity/Q7674252> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis_Kejang
+:Taeniasis_Kejang rdf:type owl:NamedIndividual ,
+                           :ManifestasiGejala ;
+                  :melibatkanGejala :Kejang ;
+                  :menghubungkanPenyakit :Taeniasis ;
+                  :mulaiDirasakanHariKe 90 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis_KeluarSegmenCacingDiTinja
+:Taeniasis_KeluarSegmenCacingDiTinja rdf:type owl:NamedIndividual ,
+                                              :ManifestasiGejala ;
+                                     :melibatkanGejala :KeluarSegmenCacingDiTinja ;
+                                     :menghubungkanPenyakit :Taeniasis ;
+                                     :mulaiDirasakanHariKe 30 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis_NyeriPerut
+:Taeniasis_NyeriPerut rdf:type owl:NamedIndividual ,
+                               :ManifestasiGejala ;
+                      :melibatkanGejala :NyeriPerut ;
+                      :menghubungkanPenyakit :Taeniasis ;
+                      :mulaiDirasakanHariKe 7 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TinggikanKakiSaatIstirahat
+:TinggikanKakiSaatIstirahat rdf:type owl:NamedIndividual ,
+                                     :PenangananMandiri .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma
+:Trachoma rdf:type owl:NamedIndividual ,
+                   :PenyakitBakteri ;
+          :disebabkan :Bakteri ,
+                      :LalatMuscaSorbens ;
+          :memilikiPenangananMandiri :MenjagaKebersihanTangan ;
+          :memilikiRujukanMedis :SegeraMencariPertolonganPro ;
+          :punyaKontakLingkungan :SanitasiBuruk ;
+          :umumTerjadiPadaMusim :Kemarau ;
+          :sumberRujukan "WHO Trachoma Fact Sheet & Global Report on NTDs 2025" ;
+          owl:sameAs <http://www.wikidata.org/entity/Q216390> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma_BuluMataMelengkungKeDalam
+:Trachoma_BuluMataMelengkungKeDalam rdf:type owl:NamedIndividual ,
+                                             :ManifestasiGejala ;
+                                    :melibatkanGejala :BuluMataMelengkungKeDalam ;
+                                    :menghubungkanPenyakit :Trachoma ;
+                                    :mulaiDirasakanHariKe 30 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma_GangguanPenglihatan
+:Trachoma_GangguanPenglihatan rdf:type owl:NamedIndividual ,
+                                       :ManifestasiGejala ;
+                              :melibatkanGejala :GangguanPenglihatan ;
+                              :menghubungkanPenyakit :Trachoma ;
+                              :mulaiDirasakanHariKe 5 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Tungau
+:Tungau rdf:type owl:NamedIndividual ,
+                 :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Virus
+:Virus rdf:type owl:NamedIndividual ,
+                :Vektor .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#WilayahHutan
+:WilayahHutan rdf:type owl:NamedIndividual ,
+                       :Lingkungan .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws
+:Yaws rdf:type owl:NamedIndividual ,
+               :PenyakitBakteri ;
+      :disebabkan :Bakteri ;
+      :memilikiPenangananMandiri :JagaKebersihanLuka ,
+                                 :MandiBersih ;
+      :punyaKontakLingkungan :SanitasiBuruk ;
+      :umumTerjadiPadaMusim :Hujan ;
+      :sumberRujukan "WHO Yaws Fact Sheet & Global Report on NTDs 2025; Kemenkes RI Eradikasi Frambusia" ;
+      owl:sameAs <http://www.wikidata.org/entity/Q645474> .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_BenjolanPapilomaKulit
+:Yaws_BenjolanPapilomaKulit rdf:type owl:NamedIndividual ,
+                                     :ManifestasiGejala ;
+                            :melibatkanGejala :BenjolanPapilomaKulit ;
+                            :menghubungkanPenyakit :Yaws ;
+                            :mulaiDirasakanHariKe 21 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_LukaBorok
+:Yaws_LukaBorok rdf:type owl:NamedIndividual ,
+                         :ManifestasiGejala ;
+                :melibatkanGejala :LukaBorok ;
+                :menghubungkanPenyakit :Yaws ;
+                :mulaiDirasakanHariKe 7 .
+
+
+###  http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_RuamKulit
+:Yaws_RuamKulit rdf:type owl:NamedIndividual ,
+                         :ManifestasiGejala ;
+                :melibatkanGejala :RuamKulit ;
+                :menghubungkanPenyakit :Yaws ;
+                :mulaiDirasakanHariKe 3 .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :GejalaDarurat
+                :GejalaKhas
+                :GejalaUmum
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :LaranganTindakan
+                :PenangananMandiri
+                :RujukanFaskes
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :PenyakitBakteri
+                :PenyakitJamur
+                :PenyakitParasit
+                :PenyakitToksin
+                :PenyakitVirus
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

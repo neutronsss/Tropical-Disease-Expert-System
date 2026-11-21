@@ -1,0 +1,2758 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6"
+     xml:base="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#sumberRujukan -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#sumberRujukan"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#disebabkan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#disebabkan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#melibatkanGejala -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#melibatkanGejala"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiPenanganan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiPenanganan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiPenangananMandiri -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiPenangananMandiri">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiPenanganan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiRujukanMedis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiRujukanMedis">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiPenanganan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiTandaBahaya -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiTandaBahaya"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiGejala -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiGejala">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#melibatkanGejala"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#menghubungkanPenyakit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#menghubungkanPenyakit">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#penyakitTerkait"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#pantanganMandiri -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#pantanganMandiri"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#penyakitTerkait -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#penyakitTerkait"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#punyaKontakLingkungan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#punyaKontakLingkungan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#umumTerjadiPadaMusim -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#umumTerjadiPadaMusim"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mulaiDirasakanHariKe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mulaiDirasakanHariKe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaDarurat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaDarurat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaPencernaan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaPencernaan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSensorik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSensorik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LaranganTindakan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LaranganTindakan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Lingkungan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Lingkungan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#melibatkanGejala"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#menghubungkanPenyakit"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Penyakit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Musim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Musim">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Penyakit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Penyakit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitBakteri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitBakteri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Penyakit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitJamur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitJamur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Penyakit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Penyakit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitToksin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitToksin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Penyakit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitVirus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitVirus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Penyakit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RujukanFaskes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RujukanFaskes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Gejala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiBuruliUlcer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiBuruliUlcer">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer_BenjolanTanpaNyeri"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer_LukaBorok"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiChagasDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiChagasDisease">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_BengkakKelopakMataSatuSisi"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_DemamTinggi"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiDengue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiDengue">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_DemamTinggi"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_NyeriSendi"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiDracunculiasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiDracunculiasis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis_CacingKeluarDariKulit"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiEchinococcosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiEchinococcosis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis_KistaHatiParu"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis_NyeriPerut"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiFoodborneTrematodiases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiFoodborneTrematodiases">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_NyeriPerut"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_SakitKuningKolangitis"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiHumanAfricanTrypanosomiasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiHumanAfricanTrypanosomiasis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_DemamTinggi"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_GangguanPolaTidur"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiLeishmaniasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiLeishmaniasis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_DemamTinggi"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_PembesaranHatiLimpa"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiLeprosy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiLeprosy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_BercakKulitMatiRasa"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiLymphaticFilariasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiLymphaticFilariasis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis_PembengkakanTungkai"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiMycetoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiMycetoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma_LukaBorok"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma_PembengkakanKerasBernanah"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiNoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiNoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma_PembusukanJaringanWajahMulut"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiOnchocerciasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiOnchocerciasis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_BenjolanBawahKulit"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_GangguanPenglihatan"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiRabies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiRabies">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_DemamTinggi"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Hidrofobia"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiScabies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiScabies">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_GatalKulit"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_RuamKulit"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiSchistosomiasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiSchistosomiasis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_KencingBerdarah"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiSnakebite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiSnakebite">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_NyeriHebatBengkak"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_Perdarahan"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiSoilTransmittedHelminthiases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiSoilTransmittedHelminthiases">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_LemasPucatAnemia"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_NyeriPerut"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiTaeniasis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiTaeniasis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis_KeluarSegmenCacingDiTinja"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiTrachoma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiTrachoma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma_BuluMataMelengkungKeDalam"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiYaws -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiYaws">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_BenjolanPapilomaKulit"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#mengalamiManifestasi"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_LukaBorok"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TriaseDarurat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TriaseDarurat">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiNoma"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiRabies"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TerindikasiSnakebite"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiTandaBahaya"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HasilDiagnosis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#memilikiRujukanMedis"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Aerofobia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Aerofobia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSensorik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Bakteri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Bakteri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BanyakIstirahat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BanyakIstirahat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BengkakKelopakMataSatuSisi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BengkakKelopakMataSatuSisi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanBawahKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanBawahKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanPapilomaKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanPapilomaKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanTanpaNyeri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanTanpaNyeri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BercakKulitMatiRasa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BercakKulitMatiRasa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Berjemur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Berjemur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BintikMerahPtekie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BintikMerahPtekie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BisaUlar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BisaUlar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuluMataMelengkungKeDalam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuluMataMelengkungKeDalam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSensorik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitBakteri"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Bakteri"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:pantanganMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JanganPecahkanLepuhKulit"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GenanganAir"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>WHO Buruli Ulcer Fact Sheet &amp; Global Report on NTDs 2025</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1017366"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer_BenjolanTanpaNyeri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer_BenjolanTanpaNyeri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanTanpaNyeri"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer_LukaBorok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer_LukaBorok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LukaBorok"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuruliUlcer"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CacingKeluarDariKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CacingKeluarDariKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KutuTriatomine"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GagalJantungAritmia"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#WilayahHutan"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau"/>
+        <untitled-ontology-6:sumberRujukan>Materi Blok Kedokteran Tropis; WHO Chagas Disease Fact Sheet (2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q309489"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_BengkakKelopakMataSatuSisi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_BengkakKelopakMataSatuSisi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BengkakKelopakMataSatuSisi"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_DemamTinggi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_DemamTinggi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTinggi"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_NyeriPerut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease_NyeriPerut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriPerut"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ChagasDisease"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciLukaDenganSabun15Menit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciLukaDenganSabun15Menit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciPakaianDenganAirPanas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciPakaianDenganAirPanas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciTungkaiDenganSabunTiapHari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciTungkaiDenganSabunTiapHari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DekatPeternakan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DekatPeternakan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Lingkungan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamBerkepanjanganPucatBerat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamBerkepanjanganPucatBerat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTinggi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTinggi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTurunDisertaiMuntahPerdarahan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTurunDisertaiMuntahPerdarahan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitVirus"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Nyamuk"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Virus"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KompresAirHangat"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KonsumsiParasetamol"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MinumAirPutihBanyak"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTurunDisertaiMuntahPerdarahan"/>
+        <untitled-ontology-6:pantanganMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HindariNSAIDAspirin"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GenanganAir"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>Materi Blok Kedokteran Tropis; Kemenkes RI PNPK Tata Laksana Dengue; WHO Dengue Fact Sheet (2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q152436"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_BintikMerahPtekie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_BintikMerahPtekie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BintikMerahPtekie"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_DemamTinggi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_DemamTinggi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTinggi"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_NyeriBelakangMata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_NyeriBelakangMata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriBelakangMata"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_NyeriSendi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_NyeriSendi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriSendi"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Diare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Diare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaPencernaan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DiareBerdarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DiareBerdarah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaPencernaan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KutuAirCyclops"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SanitasiBuruk"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>WHO Dracunculiasis (Guinea-worm disease) Fact Sheet (Jan 2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q843232"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis_CacingKeluarDariKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis_CacingKeluarDariKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CacingKeluarDariKulit"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">365</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis_GatalKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis_GatalKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalKulit"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis_LukaBorok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis_LukaBorok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LukaBorok"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dracunculiasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DekatPeternakan"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau"/>
+        <untitled-ontology-6:sumberRujukan>WHO Echinococcosis Fact Sheet &amp; Global Report on NTDs 2025</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q319227"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis_KistaHatiParu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis_KistaHatiParu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KistaHatiParu"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis_NyeriPerut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis_NyeriPerut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriPerut"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Echinococcosis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MemasakSampaiBenarMatang"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SanitasiBuruk"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>WHO Foodborne Trematode Infections Fact Sheet &amp; Global Report on NTDs 2025</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1437175"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_Diare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_Diare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Diare"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_NyeriPerut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_NyeriPerut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriPerut"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_SakitKuningKolangitis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases_SakitKuningKolangitis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SakitKuningKolangitis"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#FoodborneTrematodiases"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GagalJantungAritmia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GagalJantungAritmia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GangguanPenglihatan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GangguanPenglihatan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSensorik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GangguanPolaTidur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GangguanPolaTidur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalMemberatMalamHari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalMemberatMalamHari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GenanganAir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GenanganAir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Lingkungan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hidrofobia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hidrofobia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSensorik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HindariMenggarukLuka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HindariMenggarukLuka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HindariNSAIDAspirin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HindariNSAIDAspirin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LaranganTindakan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hipersalivasi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hipersalivasi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Musim"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatTsetse"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenurunanKesadaranKoma"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#WilayahHutan"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>Materi Blok Kedokteran Tropis; WHO Human African Trypanosomiasis Fact Sheet (2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q310037"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_DemamTinggi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_DemamTinggi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTinggi"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_GangguanPolaTidur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_GangguanPolaTidur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GangguanPolaTidur"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_PembengkakanKelenjar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis_PembengkakanKelenjar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanKelenjar"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HumanAfricanTrypanosomiasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Jamur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Jamur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JanganGunakanTorniketAtauIsapLuka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JanganGunakanTorniketAtauIsapLuka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LaranganTindakan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JanganPecahkanLepuhKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JanganPecahkanLepuhKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LaranganTindakan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JemurKasurSprei -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JemurKasurSprei">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kejang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kejang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaDarurat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KejangBerulangNeurosistiserkosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KejangBerulangNeurosistiserkosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KejangDanKelumpuhanOtot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KejangDanKelumpuhanOtot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KeluarSegmenCacingDiTinja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KeluarSegmenCacingDiTinja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaPencernaan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KelumpuhanOtotPernapasan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KelumpuhanOtotPernapasan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaDarurat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Musim"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KencingBerdarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KencingBerdarah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KistaHatiParu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KistaHatiParu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KompresAirHangat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KompresAirHangat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KonsumsiParasetamol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KonsumsiParasetamol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KutuAirCyclops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KutuAirCyclops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KutuTriatomine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KutuTriatomine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatHitamSimulium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatHitamSimulium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatMuscaSorbens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatMuscaSorbens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatPasir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatPasir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatTsetse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatTsetse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatPasir"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamBerkepanjanganPucatBerat"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#WilayahHutan"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau"/>
+        <untitled-ontology-6:sumberRujukan>Materi Blok Kedokteran Tropis; WHO Leishmaniasis Fact Sheet (2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q206583"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_DemamTinggi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_DemamTinggi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTinggi"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_LukaBorok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_LukaBorok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LukaBorok"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_PembesaranHatiLimpa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis_PembesaranHatiLimpa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembesaranHatiLimpa"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leishmaniasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LemasPucatAnemia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LemasPucatAnemia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitBakteri"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Bakteri"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PadatPenduduk"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau"/>
+        <untitled-ontology-6:sumberRujukan>WHO Leprosy (Hansen&apos;s Disease) Fact Sheet (2026) &amp; Global Report on NTDs 2025; Kemenkes RI PNPK Kusta</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q129143"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_BercakKulitMatiRasa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_BercakKulitMatiRasa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BercakKulitMatiRasa"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_GatalKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_GatalKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalKulit"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_RuamKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_RuamKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RuamKulit"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LukaBorok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LukaBorok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Nyamuk"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BanyakIstirahat"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciTungkaiDenganSabunTiapHari"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TinggikanKakiSaatIstirahat"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GenanganAir"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>Materi Blok Kedokteran Tropis; Permenkes No. 94/2014 Filariasis; WHO Lymphatic Filariasis Fact Sheet (2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q839180"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis_PembengkakanKelenjar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis_PembengkakanKelenjar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanKelenjar"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis_PembengkakanTungkai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis_PembengkakanTungkai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanTungkai"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LymphaticFilariasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MandiBersih -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MandiBersih">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MemakaiAlasKaki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MemakaiAlasKaki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MemasakSampaiBenarMatang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MemasakSampaiBenarMatang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MenjagaKebersihanTangan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MenjagaKebersihanTangan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MinumAirPutihBanyak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MinumAirPutihBanyak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MuntahDarahPembesaranPerut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MuntahDarahPembesaranPerut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitJamur"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Jamur"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#WilayahHutan"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau"/>
+        <untitled-ontology-6:sumberRujukan>WHO Mycetoma Fact Sheet &amp; Global Report on NTDs 2025</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1956555"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma_LukaBorok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma_LukaBorok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LukaBorok"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma_PembengkakanKerasBernanah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma_PembengkakanKerasBernanah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanKerasBernanah"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Mycetoma"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NekrosisWajahCepat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NekrosisWajahCepat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitBakteri"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Bakteri"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NekrosisWajahCepat"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SanitasiBuruk"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>WHO Noma Fact Sheet &amp; Global Report on NTDs 2025</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1135767"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma_LukaBorok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma_LukaBorok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LukaBorok"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma_PembusukanJaringanWajahMulut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma_PembusukanJaringanWajahMulut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembusukanJaringanWajahMulut"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Nyamuk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Nyamuk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriBelakangMata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriBelakangMata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSensorik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriHebatBengkak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriHebatBengkak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaDarurat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriPerut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriPerut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaPencernaan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriSendi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriSendi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ObatiSeluruhAnggotaSerumah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ObatiSeluruhAnggotaSerumah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatHitamSimulium"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#WilayahHutan"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>WHO Onchocerciasis Fact Sheet (Dec 2025) &amp; Elimination Progress Report (Oct 2026)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q605809"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_BenjolanBawahKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_BenjolanBawahKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanBawahKulit"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_GangguanPenglihatan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_GangguanPenglihatan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GangguanPenglihatan"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_GatalKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis_GatalKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalKulit"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Onchocerciasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PadatPenduduk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PadatPenduduk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Lingkungan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_DemamTinggi"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_NyeriSendi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_DemamTinggi"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Hidrofobia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_NyeriHebatBengkak"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_Perdarahan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Noma_PembusukanJaringanWajahMulut"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_BercakKulitMatiRasa"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Leprosy_RuamKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PasienUji_06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KasusPasien"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTurunDisertaiMuntahPerdarahan"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_BintikMerahPtekie"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_DemamTinggi"/>
+        <untitled-ontology-6:mengalamiManifestasi rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Dengue_NyeriSendi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanKelenjar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanKelenjar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanKerasBernanah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanKerasBernanah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanTungkai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembengkakanTungkai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembesaranHatiLimpa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembesaranHatiLimpa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembusukanJaringanWajahMulut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PembusukanJaringanWajahMulut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaDarurat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenurunanKesadaranKoma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenurunanKesadaranKoma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Perdarahan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Perdarahan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaDarurat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaSistemik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PerdarahanTidakBerhentiSesak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PerdarahanTidakBerhentiSesak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PosisikanGigitanLebihRendahDariJantung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PosisikanGigitanLebihRendahDariJantung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitVirus"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Virus"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciLukaDenganSabun15Menit"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraVaksinasiVAR_SAR"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KejangDanKelumpuhanOtot"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DekatPeternakan"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau"/>
+        <untitled-ontology-6:sumberRujukan>Materi Blok Kedokteran Tropis; Kemenkes RI Buku Saku Rabies; WHO Rabies Fact Sheet (2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q42278"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Aerofobia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Aerofobia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Aerofobia"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_DemamTinggi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_DemamTinggi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DemamTinggi"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Hidrofobia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Hidrofobia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hidrofobia"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Hipersalivasi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies_Hipersalivasi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hipersalivasi"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Rabies"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RuamKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RuamKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RuamSelaJariLipatan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RuamSelaJariLipatan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKulit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SakitKuningKolangitis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SakitKuningKolangitis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaPencernaan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SanitasiBuruk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SanitasiBuruk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Lingkungan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Tungau"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Berjemur"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#CuciPakaianDenganAirPanas"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#HindariMenggarukLuka"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JemurKasurSprei"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ObatiSeluruhAnggotaSerumah"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PadatPenduduk"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>Materi Blok Kedokteran Tropis; Kemenkes RI PPK Scabies; WHO Scabies Fact Sheet (2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q192135"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_GatalKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_GatalKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalKulit"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_GatalMemberatMalamHari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_GatalMemberatMalamHari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GatalMemberatMalamHari"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_RuamKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_RuamKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RuamKulit"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_RuamSelaJariLipatan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies_RuamSelaJariLipatan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RuamSelaJariLipatan"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Scabies"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SiputAirTawar"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MuntahDarahPembesaranPerut"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GenanganAir"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>Materi Blok Kedokteran Tropis; Kemenkes RI Pedoman Schistosomiasis; WHO Schistosomiasis Fact Sheet (2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q212623"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_Diare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_Diare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Diare"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_DiareBerdarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_DiareBerdarah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DiareBerdarah"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_KencingBerdarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_KencingBerdarah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KencingBerdarah"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_NyeriPerut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis_NyeriPerut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriPerut"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Schistosomiasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RujukanFaskes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraVaksinasiVAR_SAR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraVaksinasiVAR_SAR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RujukanFaskes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Serangga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Serangga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SiputAirTawar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SiputAirTawar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitToksin"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BisaUlar"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PosisikanGigitanLebihRendahDariJantung"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PerdarahanTidakBerhentiSesak"/>
+        <untitled-ontology-6:pantanganMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JanganGunakanTorniketAtauIsapLuka"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#WilayahHutan"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>WHO Snakebite Envenoming Fact Sheet (2026) &amp; Guidelines for Management of Snakebites</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q131448"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_KelumpuhanOtotPernapasan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_KelumpuhanOtotPernapasan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KelumpuhanOtotPernapasan"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_NyeriHebatBengkak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_NyeriHebatBengkak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriHebatBengkak"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_Perdarahan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming_Perdarahan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Perdarahan"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SnakebiteEnvenoming"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MandiBersih"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MemakaiAlasKaki"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MenjagaKebersihanTangan"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SumbatanUsusIleus"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SanitasiBuruk"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>Materi Blok Kedokteran Tropis; Permenkes No. 15/2017 Penanggulangan Cacingan; WHO STH Fact Sheet (2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7554904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_Diare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_Diare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Diare"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_LemasPucatAnemia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_LemasPucatAnemia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LemasPucatAnemia"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_NyeriPerut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases_NyeriPerut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriPerut"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SoilTransmittedHelminthiases"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SumbatanUsusIleus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SumbatanUsusIleus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TandaBahaya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Parasit"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MemasakSampaiBenarMatang"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KejangBerulangNeurosistiserkosis"/>
+        <untitled-ontology-6:memilikiTandaBahaya rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SumbatanUsusIleus"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#DekatPeternakan"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau"/>
+        <untitled-ontology-6:sumberRujukan>Materi Blok Kedokteran Tropis; Kemenkes RI Pedoman Taeniasis/Sistiserkosis; WHO Taeniasis Fact Sheet (2025)</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q7674252"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis_Kejang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis_Kejang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kejang"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis_KeluarSegmenCacingDiTinja -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis_KeluarSegmenCacingDiTinja">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#KeluarSegmenCacingDiTinja"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis_NyeriPerut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis_NyeriPerut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#NyeriPerut"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Taeniasis"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TinggikanKakiSaatIstirahat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#TinggikanKakiSaatIstirahat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitBakteri"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Bakteri"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LalatMuscaSorbens"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MenjagaKebersihanTangan"/>
+        <untitled-ontology-6:memilikiRujukanMedis rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SegeraMencariPertolonganPro"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SanitasiBuruk"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Kemarau"/>
+        <untitled-ontology-6:sumberRujukan>WHO Trachoma Fact Sheet &amp; Global Report on NTDs 2025</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q216390"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma_BuluMataMelengkungKeDalam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma_BuluMataMelengkungKeDalam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BuluMataMelengkungKeDalam"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma_GangguanPenglihatan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma_GangguanPenglihatan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GangguanPenglihatan"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Trachoma"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Tungau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Tungau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Virus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Virus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Vektor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#WilayahHutan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#WilayahHutan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Lingkungan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitBakteri"/>
+        <untitled-ontology-6:disebabkan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Bakteri"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#JagaKebersihanLuka"/>
+        <untitled-ontology-6:memilikiPenangananMandiri rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#MandiBersih"/>
+        <untitled-ontology-6:punyaKontakLingkungan rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#SanitasiBuruk"/>
+        <untitled-ontology-6:umumTerjadiPadaMusim rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Hujan"/>
+        <untitled-ontology-6:sumberRujukan>WHO Yaws Fact Sheet &amp; Global Report on NTDs 2025; Kemenkes RI Eradikasi Frambusia</untitled-ontology-6:sumberRujukan>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q645474"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_BenjolanPapilomaKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_BenjolanPapilomaKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#BenjolanPapilomaKulit"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_LukaBorok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_LukaBorok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LukaBorok"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_RuamKulit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws_RuamKulit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#ManifestasiGejala"/>
+        <untitled-ontology-6:melibatkanGejala rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RuamKulit"/>
+        <untitled-ontology-6:menghubungkanPenyakit rdf:resource="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#Yaws"/>
+        <untitled-ontology-6:mulaiDirasakanHariKe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-6:mulaiDirasakanHariKe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaDarurat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaKhas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#GejalaUmum"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#LaranganTindakan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenangananMandiri"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#RujukanFaskes"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitBakteri"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitJamur"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitParasit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitToksin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jimmysebastian/ontologies/2026/9/untitled-ontology-6#PenyakitVirus"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

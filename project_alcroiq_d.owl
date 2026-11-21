@@ -13,677 +13,768 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <NamedIndividual IRI="#BercakKulitMatiRasa"/>
+        <Class IRI="#Gejala"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SoilTransmittedHelminthiases_LemasPucatAnemia"/>
+        <Class IRI="#GejalaDarurat"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#umumTerjadiPadaMusim"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#KelumpuhanOtotPernapasan"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PenangananMandiri"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SnakebiteEnvenoming_Perdarahan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#ChagasDisease_BengkakKelopakMataSatuSisi"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#mengalamiGejala"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PembesaranHatiLimpa"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#MenjagaKebersihanTangan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Taeniasis_Kejang"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#LukaBorok"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TerindikasiDengue"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Schistosomiasis_DiareBerdarah"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Rabies_DemamTinggi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dengue_DemamTinggi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#GagalJantungAritmia"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#MuntahDarahPembesaranPerut"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Schistosomiasis_Diare"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#WilayahHutan"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#mulaiDirasakanHariKe"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SiputAirTawar"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Hipersalivasi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Scabies_GatalKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#DemamTinggi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Scabies_RuamSelaJariLipatan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Noma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PenyakitParasit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SnakebiteEnvenoming"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Leprosy_GatalKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PadatPenduduk"/>
+        <Class IRI="#GejalaKhas"/>
     </Declaration>
     <Declaration>
         <Class IRI="#GejalaKulit"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#MemakaiAlasKaki"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#DemamTurunDisertaiMuntahPerdarahan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Taeniasis_NyeriPerut"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PembengkakanTungkai"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Gejala"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#memilikiTandaBahaya"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TerindikasiRabies"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Noma_LukaBorok"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#MandiBersih"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#ChagasDisease_DemamTinggi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BintikMerahPtekie"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PenyakitVirus"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#KonsumsiParasetamol"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Trachoma_GangguanPenglihatan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BanyakIstirahat"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Trachoma"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PerdarahanTidakBerhentiSesak"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#DemamBerkepanjanganPucatBerat"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#LymphaticFilariasis_PembengkakanKelenjar"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Onchocerciasis_GatalKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Leishmaniasis_DemamTinggi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Yaws"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#DiareBerdarah"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PasienUji_01"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Onchocerciasis_GangguanPenglihatan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#KutuAirCyclops"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Echinococcosis_KistaHatiParu"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SanitasiBuruk"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#NyeriHebatBengkak"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#KistaHatiParu"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#LalatPasir"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SnakebiteEnvenoming_KelumpuhanOtotPernapasan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Rabies"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TerindikasiScabies"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Schistosomiasis_KencingBerdarah"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#NekrosisWajahCepat"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Leishmaniasis_PembesaranHatiLimpa"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#CuciTungkaiDenganSabunTiapHari"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PasienUji_02"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#ChagasDisease"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Noma_PembusukanJaringanWajahMulut"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Tungau"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#KencingBerdarah"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SoilTransmittedHelminthiases"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#HindariMenggarukLuka"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Yaws_LukaBorok"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BuruliUlcer"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#GangguanPolaTidur"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Aerofobia"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#FoodborneTrematodiases"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#CuciPakaianDenganAirPanas"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#LalatHitamSimulium"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#LaranganTindakan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#GatalKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Kemarau"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Penyakit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#DekatPeternakan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Taeniasis_KeluarSegmenCacingDiTinja"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PenyakitToksin"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SnakebiteEnvenoming_NyeriHebatBengkak"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Perdarahan"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#memilikiPenangananMandiri"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Nyamuk"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dracunculiasis_CacingKeluarDariKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Onchocerciasis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#MinumAirPutihBanyak"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Hujan"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TriaseDarurat"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Scabies"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#penyakitTerkait"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Vektor"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Virus"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#TinggikanKakiSaatIstirahat"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#HumanAfricanTrypanosomiasis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Mycetoma_LukaBorok"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#KeluarSegmenCacingDiTinja"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Rabies_Hidrofobia"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#GenanganAir"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#KasusPasien"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SakitKuningKolangitis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#CuciLukaDenganSabun15Menit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dracunculiasis"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#melibatkanGejala"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#LymphaticFilariasis_PembengkakanTungkai"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#FoodborneTrematodiases_NyeriPerut"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Taeniasis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#KutuTriatomine"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Echinococcosis_NyeriPerut"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dengue_BintikMerahPtekie"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Kejang"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Onchocerciasis_BenjolanBawahKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#JagaKebersihanLuka"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Rabies_Hipersalivasi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BenjolanPapilomaKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dracunculiasis_GatalKulit"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TerindikasiNoma"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#ObatiSeluruhAnggotaSerumah"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SumbatanUsusIleus"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#HumanAfricanTrypanosomiasis_PembengkakanKelenjar"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#sumberRujukan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PembusukanJaringanWajahMulut"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#memilikiRujukanMedis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#HumanAfricanTrypanosomiasis_DemamTinggi"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#punyaKontakLingkungan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#MemasakSampaiBenarMatang"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SegeraMencariPertolonganPro"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Leprosy_BercakKulitMatiRasa"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PosisikanGigitanLebihRendahDariJantung"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#HindariNSAIDAspirin"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#LalatMuscaSorbens"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BuruliUlcer_BenjolanTanpaNyeri"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#JanganGunakanTorniketAtauIsapLuka"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Scabies_RuamKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#JemurKasurSprei"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BenjolanBawahKulit"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#disebabkan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PasienUji_03"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Berjemur"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HasilDiagnosis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Yaws_RuamKulit"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#pantanganMandiri"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#GejalaSistemik"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#FoodborneTrematodiases_SakitKuningKolangitis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Hidrofobia"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Mycetoma"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#JanganPecahkanLepuhKulit"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RujukanFaskes"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#RuamKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Jamur"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PasienUji_04"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#LemasPucatAnemia"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#FoodborneTrematodiases_Diare"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Leishmaniasis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PenurunanKesadaranKoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PenyakitBakteri"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BenjolanTanpaNyeri"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Musim"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Trachoma_BuluMataMelengkungKeDalam"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#GejalaPencernaan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dengue_NyeriSendi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Yaws_BenjolanPapilomaKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PembengkakanKelenjar"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Schistosomiasis_NyeriPerut"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PembengkakanKerasBernanah"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BengkakKelopakMataSatuSisi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dengue"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#NyeriPerut"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Diare"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PenyakitJamur"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#LalatTsetse"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#memilikiPenanganan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#NyeriBelakangMata"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#ChagasDisease_NyeriPerut"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#KompresAirHangat"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#KejangBerulangNeurosistiserkosis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Leprosy_RuamKulit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#RuamSelaJariLipatan"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TandaBahaya"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dracunculiasis_LukaBorok"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Bakteri"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#NyeriSendi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Serangga"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BuruliUlcer_LukaBorok"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SoilTransmittedHelminthiases_NyeriPerut"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BisaUlar"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Parasit"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SegeraVaksinasiVAR_SAR"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dengue_NyeriBelakangMata"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#SoilTransmittedHelminthiases_Diare"/>
     </Declaration>
     <Declaration>
         <Class IRI="#GejalaSensorik"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#KejangDanKelumpuhanOtot"/>
+        <Class IRI="#GejalaSistemik"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GatalMemberatMalamHari"/>
+        <Class IRI="#GejalaUmum"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ManifestasiGejala"/>
+        <Class IRI="#HasilDiagnosis"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Rabies_Aerofobia"/>
+        <Class IRI="#KasusPasien"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TerindikasiSnakebite"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Leprosy"/>
+        <Class IRI="#LaranganTindakan"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lingkungan"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#HumanAfricanTrypanosomiasis_GangguanPolaTidur"/>
+        <Class IRI="#ManifestasiGejala"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#CacingKeluarDariKulit"/>
+        <Class IRI="#Musim"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Scabies_GatalMemberatMalamHari"/>
+        <Class IRI="#PenangananMandiri"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mycetoma_PembengkakanKerasBernanah"/>
+        <Class IRI="#Penyakit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PenyakitBakteri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PenyakitJamur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PenyakitParasit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PenyakitToksin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PenyakitVirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RujukanFaskes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TandaBahaya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiBuruliUlcer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiChagasDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiDengue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiDracunculiasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiEchinococcosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiFoodborneTrematodiases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiHumanAfricanTrypanosomiasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiLeishmaniasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiLeprosy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiLymphaticFilariasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiMycetoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiNoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiOnchocerciasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiRabies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiScabies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiSchistosomiasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiSnakebite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiSoilTransmittedHelminthiases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiTaeniasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiTrachoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerindikasiYaws"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TriaseDarurat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vektor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#disebabkan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#melibatkanGejala"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memilikiPenanganan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memilikiPenangananMandiri"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memilikiRujukanMedis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memilikiTandaBahaya"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mengalamiGejala"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#mengalamiManifestasi"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Schistosomiasis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Echinococcosis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Leishmaniasis_LukaBorok"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#menghubungkanPenyakit"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GangguanPenglihatan"/>
+        <ObjectProperty IRI="#pantanganMandiri"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#penyakitTerkait"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#punyaKontakLingkungan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#umumTerjadiPadaMusim"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mulaiDirasakanHariKe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aerofobia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bakteri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BanyakIstirahat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BengkakKelopakMataSatuSisi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BenjolanBawahKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BenjolanPapilomaKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BenjolanTanpaNyeri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BercakKulitMatiRasa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Berjemur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BintikMerahPtekie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BisaUlar"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#BuluMataMelengkungKeDalam"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BuruliUlcer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BuruliUlcer_BenjolanTanpaNyeri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BuruliUlcer_LukaBorok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CacingKeluarDariKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChagasDisease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChagasDisease_BengkakKelopakMataSatuSisi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChagasDisease_DemamTinggi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChagasDisease_NyeriPerut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CuciLukaDenganSabun15Menit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CuciPakaianDenganAirPanas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CuciTungkaiDenganSabunTiapHari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DekatPeternakan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DemamBerkepanjanganPucatBerat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DemamTinggi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DemamTurunDisertaiMuntahPerdarahan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dengue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dengue_BintikMerahPtekie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dengue_DemamTinggi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dengue_NyeriBelakangMata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dengue_NyeriSendi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DiareBerdarah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dracunculiasis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dracunculiasis_CacingKeluarDariKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dracunculiasis_GatalKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dracunculiasis_LukaBorok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Echinococcosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Echinococcosis_KistaHatiParu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Echinococcosis_NyeriPerut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoodborneTrematodiases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoodborneTrematodiases_Diare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoodborneTrematodiases_NyeriPerut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FoodborneTrematodiases_SakitKuningKolangitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GagalJantungAritmia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GangguanPenglihatan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GangguanPolaTidur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GatalKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GatalMemberatMalamHari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GenanganAir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hidrofobia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HindariMenggarukLuka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HindariNSAIDAspirin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hipersalivasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hujan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HumanAfricanTrypanosomiasis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HumanAfricanTrypanosomiasis_DemamTinggi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HumanAfricanTrypanosomiasis_GangguanPolaTidur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HumanAfricanTrypanosomiasis_PembengkakanKelenjar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JagaKebersihanLuka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jamur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JanganGunakanTorniketAtauIsapLuka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JanganPecahkanLepuhKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JemurKasurSprei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kejang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KejangBerulangNeurosistiserkosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KejangDanKelumpuhanOtot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KeluarSegmenCacingDiTinja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KelumpuhanOtotPernapasan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kemarau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KencingBerdarah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KistaHatiParu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KompresAirHangat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KonsumsiParasetamol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KutuAirCyclops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KutuTriatomine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LalatHitamSimulium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LalatMuscaSorbens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LalatPasir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LalatTsetse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leishmaniasis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leishmaniasis_DemamTinggi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leishmaniasis_LukaBorok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leishmaniasis_PembesaranHatiLimpa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LemasPucatAnemia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leprosy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leprosy_BercakKulitMatiRasa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leprosy_GatalKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leprosy_RuamKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LukaBorok"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#LymphaticFilariasis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LymphaticFilariasis_PembengkakanKelenjar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LymphaticFilariasis_PembengkakanTungkai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MandiBersih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MemakaiAlasKaki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MemasakSampaiBenarMatang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MenjagaKebersihanTangan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MinumAirPutihBanyak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MuntahDarahPembesaranPerut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mycetoma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mycetoma_LukaBorok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mycetoma_PembengkakanKerasBernanah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NekrosisWajahCepat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Noma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Noma_LukaBorok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Noma_PembusukanJaringanWajahMulut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nyamuk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NyeriBelakangMata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NyeriHebatBengkak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NyeriPerut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NyeriSendi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ObatiSeluruhAnggotaSerumah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Onchocerciasis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Onchocerciasis_BenjolanBawahKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Onchocerciasis_GangguanPenglihatan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Onchocerciasis_GatalKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PadatPenduduk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parasit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PasienUji_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PasienUji_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PasienUji_03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PasienUji_04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PasienUji_05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PasienUji_06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PembengkakanKelenjar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PembengkakanKerasBernanah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PembengkakanTungkai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PembesaranHatiLimpa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PembusukanJaringanWajahMulut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PenurunanKesadaranKoma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perdarahan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PerdarahanTidakBerhentiSesak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PosisikanGigitanLebihRendahDariJantung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rabies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rabies_Aerofobia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rabies_DemamTinggi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rabies_Hidrofobia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rabies_Hipersalivasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RuamKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RuamSelaJariLipatan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SakitKuningKolangitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanitasiBuruk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scabies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scabies_GatalKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scabies_GatalMemberatMalamHari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scabies_RuamKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scabies_RuamSelaJariLipatan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Schistosomiasis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Schistosomiasis_Diare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Schistosomiasis_DiareBerdarah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Schistosomiasis_KencingBerdarah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Schistosomiasis_NyeriPerut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SegeraMencariPertolonganPro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SegeraVaksinasiVAR_SAR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serangga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SiputAirTawar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SnakebiteEnvenoming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SnakebiteEnvenoming_KelumpuhanOtotPernapasan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SnakebiteEnvenoming_NyeriHebatBengkak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SnakebiteEnvenoming_Perdarahan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SoilTransmittedHelminthiases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SoilTransmittedHelminthiases_Diare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SoilTransmittedHelminthiases_LemasPucatAnemia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SoilTransmittedHelminthiases_NyeriPerut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SumbatanUsusIleus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taeniasis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taeniasis_Kejang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taeniasis_KeluarSegmenCacingDiTinja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taeniasis_NyeriPerut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TinggikanKakiSaatIstirahat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trachoma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trachoma_BuluMataMelengkungKeDalam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trachoma_GangguanPenglihatan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tungau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Virus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WilayahHutan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yaws"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yaws_BenjolanPapilomaKulit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yaws_LukaBorok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yaws_RuamKulit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#sumberRujukan"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#Musim"/>
         <ObjectOneOf>
-            <NamedIndividual IRI="#Kemarau"/>
             <NamedIndividual IRI="#Hujan"/>
+            <NamedIndividual IRI="#Kemarau"/>
         </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiBuruliUlcer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#BuruliUlcer_BenjolanTanpaNyeri"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#BuruliUlcer_LukaBorok"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiChagasDisease"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#ChagasDisease_BengkakKelopakMataSatuSisi"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#ChagasDisease_DemamTinggi"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#TerindikasiDengue"/>
@@ -700,12 +791,126 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#TerindikasiDracunculiasis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Dracunculiasis_CacingKeluarDariKulit"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiEchinococcosis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Echinococcosis_KistaHatiParu"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Echinococcosis_NyeriPerut"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiFoodborneTrematodiases"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#FoodborneTrematodiases_NyeriPerut"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#FoodborneTrematodiases_SakitKuningKolangitis"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiHumanAfricanTrypanosomiasis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#HumanAfricanTrypanosomiasis_DemamTinggi"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#HumanAfricanTrypanosomiasis_GangguanPolaTidur"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiLeishmaniasis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Leishmaniasis_DemamTinggi"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Leishmaniasis_PembesaranHatiLimpa"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiLeprosy"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Leprosy_BercakKulitMatiRasa"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiLymphaticFilariasis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#LymphaticFilariasis_PembengkakanTungkai"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiMycetoma"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Mycetoma_LukaBorok"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Mycetoma_PembengkakanKerasBernanah"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#TerindikasiNoma"/>
         <ObjectIntersectionOf>
             <Class IRI="#KasusPasien"/>
             <ObjectHasValue>
                 <ObjectProperty IRI="#mengalamiManifestasi"/>
                 <NamedIndividual IRI="#Noma_PembusukanJaringanWajahMulut"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiOnchocerciasis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Onchocerciasis_BenjolanBawahKulit"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Onchocerciasis_GangguanPenglihatan"/>
             </ObjectHasValue>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -738,6 +943,16 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#TerindikasiSchistosomiasis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Schistosomiasis_KencingBerdarah"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#TerindikasiSnakebite"/>
         <ObjectIntersectionOf>
             <Class IRI="#KasusPasien"/>
@@ -748,6 +963,54 @@
             <ObjectHasValue>
                 <ObjectProperty IRI="#mengalamiManifestasi"/>
                 <NamedIndividual IRI="#SnakebiteEnvenoming_Perdarahan"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiSoilTransmittedHelminthiases"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#SoilTransmittedHelminthiases_LemasPucatAnemia"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#SoilTransmittedHelminthiases_NyeriPerut"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiTaeniasis"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Taeniasis_KeluarSegmenCacingDiTinja"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiTrachoma"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Trachoma_BuluMataMelengkungKeDalam"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TerindikasiYaws"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#KasusPasien"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Yaws_BenjolanPapilomaKulit"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#mengalamiManifestasi"/>
+                <NamedIndividual IRI="#Yaws_LukaBorok"/>
             </ObjectHasValue>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -767,6 +1030,14 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
+        <Class IRI="#GejalaDarurat"/>
+        <Class IRI="#Gejala"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GejalaKhas"/>
+        <Class IRI="#Gejala"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#GejalaKulit"/>
         <Class IRI="#Gejala"/>
     </SubClassOf>
@@ -780,6 +1051,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GejalaSistemik"/>
+        <Class IRI="#Gejala"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GejalaUmum"/>
         <Class IRI="#Gejala"/>
     </SubClassOf>
     <SubClassOf>
@@ -821,11 +1096,55 @@
         <Class IRI="#Gejala"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TerindikasiBuruliUlcer"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiChagasDisease"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TerindikasiDengue"/>
         <Class IRI="#HasilDiagnosis"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TerindikasiDracunculiasis"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiEchinococcosis"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiFoodborneTrematodiases"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiHumanAfricanTrypanosomiasis"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiLeishmaniasis"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiLeprosy"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiLymphaticFilariasis"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiMycetoma"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TerindikasiNoma"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiOnchocerciasis"/>
         <Class IRI="#HasilDiagnosis"/>
     </SubClassOf>
     <SubClassOf>
@@ -837,7 +1156,27 @@
         <Class IRI="#HasilDiagnosis"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TerindikasiSchistosomiasis"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TerindikasiSnakebite"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiSoilTransmittedHelminthiases"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiTaeniasis"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiTrachoma"/>
+        <Class IRI="#HasilDiagnosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerindikasiYaws"/>
         <Class IRI="#HasilDiagnosis"/>
     </SubClassOf>
     <SubClassOf>
@@ -851,6 +1190,27 @@
             <NamedIndividual IRI="#SegeraMencariPertolonganPro"/>
         </ObjectHasValue>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#GejalaDarurat"/>
+        <Class IRI="#GejalaKhas"/>
+        <Class IRI="#GejalaUmum"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LaranganTindakan"/>
+        <Class IRI="#PenangananMandiri"/>
+        <Class IRI="#RujukanFaskes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PenyakitBakteri"/>
+        <Class IRI="#PenyakitJamur"/>
+        <Class IRI="#PenyakitParasit"/>
+        <Class IRI="#PenyakitToksin"/>
+        <Class IRI="#PenyakitVirus"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#Aerofobia"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSensorik"/>
         <NamedIndividual IRI="#Aerofobia"/>
@@ -864,20 +1224,40 @@
         <NamedIndividual IRI="#BanyakIstirahat"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#BengkakKelopakMataSatuSisi"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
         <NamedIndividual IRI="#BengkakKelopakMataSatuSisi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#BenjolanBawahKulit"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
         <NamedIndividual IRI="#BenjolanBawahKulit"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#GejalaKulit"/>
+        <Class IRI="#GejalaKhas"/>
         <NamedIndividual IRI="#BenjolanPapilomaKulit"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
+        <NamedIndividual IRI="#BenjolanPapilomaKulit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
         <NamedIndividual IRI="#BenjolanTanpaNyeri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKulit"/>
+        <NamedIndividual IRI="#BenjolanTanpaNyeri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#BercakKulitMatiRasa"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
@@ -888,12 +1268,20 @@
         <NamedIndividual IRI="#Berjemur"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#BintikMerahPtekie"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
         <NamedIndividual IRI="#BintikMerahPtekie"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vektor"/>
         <NamedIndividual IRI="#BisaUlar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#BuluMataMelengkungKeDalam"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSensorik"/>
@@ -910,6 +1298,10 @@
     <ClassAssertion>
         <Class IRI="#ManifestasiGejala"/>
         <NamedIndividual IRI="#BuruliUlcer_LukaBorok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#CacingKeluarDariKulit"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
@@ -956,6 +1348,10 @@
         <NamedIndividual IRI="#DemamTinggi"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaUmum"/>
+        <NamedIndividual IRI="#DemamTinggi"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#TandaBahaya"/>
         <NamedIndividual IRI="#DemamTurunDisertaiMuntahPerdarahan"/>
     </ClassAssertion>
@@ -982,6 +1378,14 @@
     <ClassAssertion>
         <Class IRI="#GejalaPencernaan"/>
         <NamedIndividual IRI="#Diare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaUmum"/>
+        <NamedIndividual IRI="#Diare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#DiareBerdarah"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaPencernaan"/>
@@ -1036,8 +1440,16 @@
         <NamedIndividual IRI="#GagalJantungAritmia"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#GangguanPenglihatan"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GejalaSensorik"/>
         <NamedIndividual IRI="#GangguanPenglihatan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#GangguanPolaTidur"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
@@ -1048,12 +1460,24 @@
         <NamedIndividual IRI="#GatalKulit"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaUmum"/>
+        <NamedIndividual IRI="#GatalKulit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#GatalMemberatMalamHari"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
         <NamedIndividual IRI="#GatalMemberatMalamHari"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Lingkungan"/>
         <NamedIndividual IRI="#GenanganAir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#Hidrofobia"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSensorik"/>
@@ -1066,6 +1490,10 @@
     <ClassAssertion>
         <Class IRI="#LaranganTindakan"/>
         <NamedIndividual IRI="#HindariNSAIDAspirin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#Hipersalivasi"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
@@ -1112,6 +1540,10 @@
         <NamedIndividual IRI="#JemurKasurSprei"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaDarurat"/>
+        <NamedIndividual IRI="#Kejang"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
         <NamedIndividual IRI="#Kejang"/>
     </ClassAssertion>
@@ -1124,8 +1556,16 @@
         <NamedIndividual IRI="#KejangDanKelumpuhanOtot"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#KeluarSegmenCacingDiTinja"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GejalaPencernaan"/>
         <NamedIndividual IRI="#KeluarSegmenCacingDiTinja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaDarurat"/>
+        <NamedIndividual IRI="#KelumpuhanOtotPernapasan"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
@@ -1136,8 +1576,16 @@
         <NamedIndividual IRI="#Kemarau"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#KencingBerdarah"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
         <NamedIndividual IRI="#KencingBerdarah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#KistaHatiParu"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
@@ -1196,6 +1644,10 @@
         <NamedIndividual IRI="#LemasPucatAnemia"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaUmum"/>
+        <NamedIndividual IRI="#LemasPucatAnemia"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#PenyakitBakteri"/>
         <NamedIndividual IRI="#Leprosy"/>
     </ClassAssertion>
@@ -1210,6 +1662,10 @@
     <ClassAssertion>
         <Class IRI="#ManifestasiGejala"/>
         <NamedIndividual IRI="#Leprosy_RuamKulit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#LukaBorok"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
@@ -1284,8 +1740,16 @@
         <NamedIndividual IRI="#Nyamuk"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#NyeriBelakangMata"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GejalaSensorik"/>
         <NamedIndividual IRI="#NyeriBelakangMata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaDarurat"/>
+        <NamedIndividual IRI="#NyeriHebatBengkak"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
@@ -1294,6 +1758,14 @@
     <ClassAssertion>
         <Class IRI="#GejalaPencernaan"/>
         <NamedIndividual IRI="#NyeriPerut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaUmum"/>
+        <NamedIndividual IRI="#NyeriPerut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#NyeriSendi"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
@@ -1344,20 +1816,48 @@
         <NamedIndividual IRI="#PasienUji_04"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#KasusPasien"/>
+        <NamedIndividual IRI="#PasienUji_05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KasusPasien"/>
+        <NamedIndividual IRI="#PasienUji_06"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
         <NamedIndividual IRI="#PembengkakanKelenjar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaUmum"/>
+        <NamedIndividual IRI="#PembengkakanKelenjar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#PembengkakanKerasBernanah"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
         <NamedIndividual IRI="#PembengkakanKerasBernanah"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#GejalaSistemik"/>
+        <Class IRI="#GejalaKhas"/>
         <NamedIndividual IRI="#PembengkakanTungkai"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
+        <NamedIndividual IRI="#PembengkakanTungkai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
         <NamedIndividual IRI="#PembesaranHatiLimpa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaSistemik"/>
+        <NamedIndividual IRI="#PembesaranHatiLimpa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaDarurat"/>
+        <NamedIndividual IRI="#PembusukanJaringanWajahMulut"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
@@ -1366,6 +1866,10 @@
     <ClassAssertion>
         <Class IRI="#TandaBahaya"/>
         <NamedIndividual IRI="#PenurunanKesadaranKoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaDarurat"/>
+        <NamedIndividual IRI="#Perdarahan"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaSistemik"/>
@@ -1404,8 +1908,20 @@
         <NamedIndividual IRI="#RuamKulit"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GejalaUmum"/>
+        <NamedIndividual IRI="#RuamKulit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#RuamSelaJariLipatan"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GejalaKulit"/>
         <NamedIndividual IRI="#RuamSelaJariLipatan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GejalaKhas"/>
+        <NamedIndividual IRI="#SakitKuningKolangitis"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GejalaPencernaan"/>
@@ -2346,6 +2862,36 @@
         <ObjectProperty IRI="#mengalamiManifestasi"/>
         <NamedIndividual IRI="#PasienUji_04"/>
         <NamedIndividual IRI="#Noma_PembusukanJaringanWajahMulut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mengalamiManifestasi"/>
+        <NamedIndividual IRI="#PasienUji_05"/>
+        <NamedIndividual IRI="#Leprosy_BercakKulitMatiRasa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mengalamiManifestasi"/>
+        <NamedIndividual IRI="#PasienUji_05"/>
+        <NamedIndividual IRI="#Leprosy_RuamKulit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiTandaBahaya"/>
+        <NamedIndividual IRI="#PasienUji_06"/>
+        <NamedIndividual IRI="#DemamTurunDisertaiMuntahPerdarahan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mengalamiManifestasi"/>
+        <NamedIndividual IRI="#PasienUji_06"/>
+        <NamedIndividual IRI="#Dengue_BintikMerahPtekie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mengalamiManifestasi"/>
+        <NamedIndividual IRI="#PasienUji_06"/>
+        <NamedIndividual IRI="#Dengue_DemamTinggi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mengalamiManifestasi"/>
+        <NamedIndividual IRI="#PasienUji_06"/>
+        <NamedIndividual IRI="#Dengue_NyeriSendi"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#disebabkan"/>
@@ -3220,7 +3766,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#BuruliUlcer</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Buruli Ulcer Fact Sheet &amp; Global Report on NTDs 2025</Literal>
+        <Literal>WHO Buruli Ulcer Fact Sheet &amp; Global Report on NTDs 2025</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3230,7 +3776,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#ChagasDisease</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materi Blok Kedokteran Tropis; WHO Chagas Disease Fact Sheet (2025)</Literal>
+        <Literal>Materi Blok Kedokteran Tropis; WHO Chagas Disease Fact Sheet (2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3240,7 +3786,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Dengue</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materi Blok Kedokteran Tropis; Kemenkes RI PNPK Tata Laksana Dengue; WHO Dengue Fact Sheet (2025)</Literal>
+        <Literal>Materi Blok Kedokteran Tropis; Kemenkes RI PNPK Tata Laksana Dengue; WHO Dengue Fact Sheet (2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3250,7 +3796,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Dracunculiasis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Dracunculiasis (Guinea-worm disease) Fact Sheet (Jan 2025)</Literal>
+        <Literal>WHO Dracunculiasis (Guinea-worm disease) Fact Sheet (Jan 2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3260,7 +3806,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Echinococcosis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Echinococcosis Fact Sheet &amp; Global Report on NTDs 2025</Literal>
+        <Literal>WHO Echinococcosis Fact Sheet &amp; Global Report on NTDs 2025</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3270,7 +3816,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#FoodborneTrematodiases</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Foodborne Trematode Infections Fact Sheet &amp; Global Report on NTDs 2025</Literal>
+        <Literal>WHO Foodborne Trematode Infections Fact Sheet &amp; Global Report on NTDs 2025</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3280,7 +3826,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#HumanAfricanTrypanosomiasis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materi Blok Kedokteran Tropis; WHO Human African Trypanosomiasis Fact Sheet (2025)</Literal>
+        <Literal>Materi Blok Kedokteran Tropis; WHO Human African Trypanosomiasis Fact Sheet (2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3290,7 +3836,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Leishmaniasis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materi Blok Kedokteran Tropis; WHO Leishmaniasis Fact Sheet (2025)</Literal>
+        <Literal>Materi Blok Kedokteran Tropis; WHO Leishmaniasis Fact Sheet (2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3300,7 +3846,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Leprosy</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Leprosy (Hansen&apos;s Disease) Fact Sheet (2026) &amp; Global Report on NTDs 2025; Kemenkes RI PNPK Kusta</Literal>
+        <Literal>WHO Leprosy (Hansen&apos;s Disease) Fact Sheet (2026) &amp; Global Report on NTDs 2025; Kemenkes RI PNPK Kusta</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3310,7 +3856,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#LymphaticFilariasis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materi Blok Kedokteran Tropis; Permenkes No. 94/2014 Filariasis; WHO Lymphatic Filariasis Fact Sheet (2025)</Literal>
+        <Literal>Materi Blok Kedokteran Tropis; Permenkes No. 94/2014 Filariasis; WHO Lymphatic Filariasis Fact Sheet (2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3320,7 +3866,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Mycetoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Mycetoma Fact Sheet &amp; Global Report on NTDs 2025</Literal>
+        <Literal>WHO Mycetoma Fact Sheet &amp; Global Report on NTDs 2025</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3330,7 +3876,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Noma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Noma Fact Sheet &amp; Global Report on NTDs 2025</Literal>
+        <Literal>WHO Noma Fact Sheet &amp; Global Report on NTDs 2025</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3340,7 +3886,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Onchocerciasis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Onchocerciasis Fact Sheet (Dec 2025) &amp; Elimination Progress Report (Oct 2026)</Literal>
+        <Literal>WHO Onchocerciasis Fact Sheet (Dec 2025) &amp; Elimination Progress Report (Oct 2026)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3350,7 +3896,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Rabies</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materi Blok Kedokteran Tropis; Kemenkes RI Buku Saku Rabies; WHO Rabies Fact Sheet (2025)</Literal>
+        <Literal>Materi Blok Kedokteran Tropis; Kemenkes RI Buku Saku Rabies; WHO Rabies Fact Sheet (2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3360,7 +3906,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Scabies</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materi Blok Kedokteran Tropis; Kemenkes RI PPK Scabies; WHO Scabies Fact Sheet (2025)</Literal>
+        <Literal>Materi Blok Kedokteran Tropis; Kemenkes RI PPK Scabies; WHO Scabies Fact Sheet (2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3370,7 +3916,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Schistosomiasis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materi Blok Kedokteran Tropis; Kemenkes RI Pedoman Schistosomiasis; WHO Schistosomiasis Fact Sheet (2025)</Literal>
+        <Literal>Materi Blok Kedokteran Tropis; Kemenkes RI Pedoman Schistosomiasis; WHO Schistosomiasis Fact Sheet (2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3380,7 +3926,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#SnakebiteEnvenoming</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Snakebite Envenoming Fact Sheet (2026) &amp; Guidelines for Management of Snakebites</Literal>
+        <Literal>WHO Snakebite Envenoming Fact Sheet (2026) &amp; Guidelines for Management of Snakebites</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3390,7 +3936,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#SoilTransmittedHelminthiases</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materi Blok Kedokteran Tropis; Permenkes No. 15/2017 Penanggulangan Cacingan; WHO STH Fact Sheet (2025)</Literal>
+        <Literal>Materi Blok Kedokteran Tropis; Permenkes No. 15/2017 Penanggulangan Cacingan; WHO STH Fact Sheet (2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3400,7 +3946,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Taeniasis</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Materi Blok Kedokteran Tropis; Kemenkes RI Pedoman Taeniasis/Sistiserkosis; WHO Taeniasis Fact Sheet (2025)</Literal>
+        <Literal>Materi Blok Kedokteran Tropis; Kemenkes RI Pedoman Taeniasis/Sistiserkosis; WHO Taeniasis Fact Sheet (2025)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3410,7 +3956,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Trachoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Trachoma Fact Sheet &amp; Global Report on NTDs 2025</Literal>
+        <Literal>WHO Trachoma Fact Sheet &amp; Global Report on NTDs 2025</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3420,7 +3966,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#sumberRujukan"/>
         <IRI>#Yaws</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WHO Yaws Fact Sheet &amp; Global Report on NTDs 2025; Kemenkes RI Eradikasi Frambusia</Literal>
+        <Literal>WHO Yaws Fact Sheet &amp; Global Report on NTDs 2025; Kemenkes RI Eradikasi Frambusia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -3431,5 +3977,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
